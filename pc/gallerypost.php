@@ -175,7 +175,7 @@ $upload_path="../upload/"
                 
 	    	</div>
 	    	<div class="three_right">
-	    		<div class="rightAD">
+	    		<div class="rightTopAD">
 	    			<img src="<?php echo $upload_path ?>ad_320x250.gif">
 	    		</div>
 	    		<div class="event">
