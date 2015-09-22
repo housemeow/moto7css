@@ -1,57 +1,55 @@
 @import "library"; 
 @import "elements";
 
-.breadcrumb_component{
-	.breadcrumb {
-		padding: 9px 0 7px 0;
-		margin-top: -14px;
-		margin-bottom: 21px;
-		background: transparent url('@{image_path}dotted.png') bottom repeat-x;
-		border-radius: 0;
-		font-size: 12px;
+.breadcrumb {
+	padding: 9px 0 7px 0;
+	margin-top: -14px;
+	margin-bottom: 21px;
+	background: transparent url('@{image_path}dotted.png') bottom repeat-x;
+	border-radius: 0;
+	font-size: 12px;
+}
+.breadcrumb > li + li:before {
+	content: " ";
+	padding: 0 4px;
+}
+.breadcrumb li {
+	line-height: 22px;
+	a {
+		color: @hiline_color;
+		padding: 4px 5px;
+		position: relative;
+		background: @slide_title_color;
 	}
-	.breadcrumb > li + li:before {
-		content: " ";
-		padding: 0 4px;
+	a:after {
+		content: ""; 
+		position: absolute;
+		top: 50%; 
+		margin-top: -11px;   
+		border-top: 11px solid transparent;
+		border-bottom: 11px solid transparent;
+		border-left: 10px solid @slide_title_color;
+		right: -10px;
+		width: 10px;
+		height: 22px;
 	}
-	.breadcrumb li {
-		line-height: 22px;
-		a {
-			color: @hiline_color;
-			padding: 4px 5px;
-			position: relative;
-			background: @slide_title_color;
-		}
-		a:after {
-			content: ""; 
-			position: absolute;
-			top: 50%; 
-			margin-top: -11px;   
-			border-top: 11px solid transparent;
-			border-bottom: 11px solid transparent;
-			border-left: 10px solid @slide_title_color;
-			right: -10px;
-			width: 10px;
-			height: 22px;
-		}
+}
+.breadcrumb li.category {
+	a {
+		background: @menu_item_active_background_color;
 	}
-	.breadcrumb li.category {
-		a {
-			background: @menu_item_active_background_color;
-		}
-		a:after {
-			border-left-color: @menu_item_active_background_color;
-		}
+	a:after {
+		border-left-color: @menu_item_active_background_color;
 	}
-	.breadcrumb li.case {
-		a {
-			background: @menu_item_background_color;
-		}
-		a:after {
-			border-left-color: @menu_item_background_color;
-		}
+}
+.breadcrumb li.case {
+	a {
+		background: @menu_item_background_color;
 	}
-	.breadcrumb>.active {
-		color: #FFFFFF;
+	a:after {
+		border-left-color: @menu_item_background_color;
 	}
+}
+.breadcrumb>.active {
+	color: #FFFFFF;
 }
