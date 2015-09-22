@@ -2,6 +2,7 @@
 @import "elements";
 @import "breadcrumb";
 @import "article";
+@import "pagination";
 
 html{
 	//default
@@ -770,65 +771,11 @@ html{
 				.article_articleList {
 					.article_component;
 				}
-				.pagination {
-					float: right;
-					margin: 0 3px 0 0;
-					position: relative;
+
+				.article_pagination{
+					.pagination_component;
 				}
-				.pagination.left {
-					float: left;
-				}
-				.pagination:before {
-					content: "";
-					background-color: @hiline_color;
-					position: absolute;
-					width: 90%;
-					height: 1px;
-					top: 50%;
-				}
-				.pagination>li>a,
-				.pagination>li>span {
-					font-size: 12px;
-					text-align: center;
-					border: 2px solid @hiline_color;
-					height: 23px;
-					width: 23px;
-					border-radius: 100%;
-					margin-right: 7px;
-					padding: 2px 0 0 0;
-					color: @background_color;
-				}
-				.pagination>li:first-child>a,
-				.pagination>li:first-child>span {
-					border-top-left-radius: 23px;
-					border-bottom-left-radius: 23px;
-				}
-				.pagination>.disabled>span,
-				.pagination>.disabled>span:hover,
-				.pagination>.disabled>span:focus,
-				.pagination>.disabled>a,
-				.pagination>.disabled>a:hover,
-				.pagination>.disabled>a:focus {
-					border-color: @hiline_color;
-				}
-				.pagination>.active>a,
-				.pagination>.active>span,
-				.pagination>.active>a:hover,
-				.pagination>.active>span:hover,
-				.pagination>.active>a:focus,
-				.pagination>.active>span:focus {
-					color: @hiline_color;
-					background-color: @menu_item_active_background_color;
-					border-color: @hiline_color;
-				}
-				.pagination>li>a:hover,
-				.pagination>li>span:hover,
-				.pagination>li>a:focus,
-				.pagination>li>span:focus {
-					color: @hiline_color;
-					background-color: @menu_item_active_background_color;
-					border-color: @hiline_color;
-				}
+
 				.dropdown-toggle,
 				.dropdown-menu {
 					font-size: 12px;
