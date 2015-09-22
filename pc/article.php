@@ -71,11 +71,13 @@ $upload_path="../upload/"
 	    <div class="headerAD jumbotron"><img src="<?php echo $upload_path ?>ad_970x90.gif"></div>
 	    <div class="container">
 	    	<div class="two_left">
-            	<ol class="breadcrumb">
-                  <li><a href="#">首頁</a></li>
-                  <li class="category"><a href="#">專欄</a></li>
-                  <li class="active">特別企劃</li>
-                </ol>
+	    		<div class="article_breadcrumb">
+	            	<ol class="breadcrumb">
+	                  <li><a href="#">首頁</a></li>
+	                  <li class="category"><a href="#">專欄</a></li>
+	                  <li class="active">特別企劃</li>
+	                </ol>
+	    		</div>
                 <div class="articleList">
                 	<a class="articleItem" href="articlepost.php">
                     	<img src="<?php echo $upload_path ?>img_199x133.jpg"/>
@@ -103,7 +105,7 @@ $upload_path="../upload/"
                     <li><a href="#">2</a></li>
                     <li><a href="#">3</a></li>
                     <li><a href="#">4</a></li>
-                    <li><a href="#">10</a></li>
+                    <li><a href="#">5</a></li>
                     <li><a href="#">...</a></li>
                     <li><a href="#"><span aria-hidden="true"><i class="fa fa-chevron-right"></i></span><span class="sr-only">Next</span></a></li>
                   </ul>
