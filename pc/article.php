@@ -78,26 +78,28 @@ $upload_path="../upload/"
 	                  <li class="active">特別企劃</li>
 	                </ol>
 	    		</div>
-                <div class="articleList">
-                	<a class="articleItem" href="articlepost.php">
-                    	<img src="<?php echo $upload_path ?>img_199x133.jpg"/>
-                        <div class="articleInfo">
-                            <h1>MOTO7 教練團日本 Suzuka 安駕訓練受訓紀實</h1>
-                            <span class="date"><i class="fa fa-calendar fa-lg"></i>05 / 08 / 2014 </span>
-                            <span class="comment"><i class="fa fa-comment fa-lg"></i>12,136</span>
-                            <p>為了精進MOTO7 教練團騎乘技術，提升騎術訓練活動以及安全駕駛內容，MOTO7 主編楊斌與安駕講師小天特別安排到日本的Suzuka 安全駕駛教育中心，來學習最新的騎乘技巧與觀念，並且將這些知識...</p>
-                        </div>
-                    </a>
-                    <a class="articleItem" href="articlepost.php">
-                    	<img src="<?php echo $upload_path ?>img_199x133.jpg"/>
-                        <div class="articleInfo">
-                            <h1>MOTO7 教練團日本 Suzuka 安駕訓練受訓紀實</h1>
-                            <span class="date"><i class="fa fa-calendar fa-lg"></i>05 / 08 / 2014 </span>
-                            <span class="comment"><i class="fa fa-comment fa-lg"></i>12,136</span>
-                            <p>為了精進MOTO7 教練團騎乘技術，提升騎術訓練活動以及安全駕駛內容，MOTO7 主編楊斌與安駕講師小天特別安排到日本的Suzuka 安全駕駛教育中心，來學習最新的騎乘技巧與觀念，並且將這些知識...</p>
-                        </div>
-                    </a>
-                </div>
+	    		<div class="article_articleList">
+	                <div class="articleList">
+	                	<a class="articleItem" href="articlepost.php">
+	                    	<img src="<?php echo $upload_path ?>img_199x133.jpg"/>
+	                        <div class="articleInfo">
+	                            <h1>MOTO7 教練團日本 Suzuka 安駕訓練受訓紀實</h1>
+	                            <span class="date"><i class="fa fa-calendar fa-lg"></i>05 / 08 / 2014 </span>
+	                            <span class="comment"><i class="fa fa-comment fa-lg"></i>12,136</span>
+	                            <p>為了精進MOTO7 教練團騎乘技術，提升騎術訓練活動以及安全駕駛內容，MOTO7 主編楊斌與安駕講師小天特別安排到日本的Suzuka 安全駕駛教育中心，來學習最新的騎乘技巧與觀念，並且將這些知識...</p>
+	                        </div>
+	                    </a>
+	                    <a class="articleItem" href="articlepost.php">
+	                    	<img src="<?php echo $upload_path ?>img_199x133.jpg"/>
+	                        <div class="articleInfo">
+	                            <h1>MOTO7 教練團日本 Suzuka 安駕訓練受訓紀實</h1>
+	                            <span class="date"><i class="fa fa-calendar fa-lg"></i>05 / 08 / 2014 </span>
+	                            <span class="comment"><i class="fa fa-comment fa-lg"></i>12,136</span>
+	                            <p>為了精進MOTO7 教練團騎乘技術，提升騎術訓練活動以及安全駕駛內容，MOTO7 主編楊斌與安駕講師小天特別安排到日本的Suzuka 安全駕駛教育中心，來學習最新的騎乘技巧與觀念，並且將這些知識...</p>
+	                        </div>
+	                    </a>
+	                </div>
+	    		</div>
                 <nav>
                   <ul class="pagination">
                     <li class="disabled"><a href="#"><span aria-hidden="true"><i class="fa fa-chevron-left"></i></span><span class="sr-only">Previous</span></a></li>

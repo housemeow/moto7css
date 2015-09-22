@@ -1,0 +1,47 @@
+@import "library"; 
+@import "elements";
+
+.article_component{
+	.articleItem {
+		overflow: auto;
+		padding: 22px 23px;
+		border: 1px solid @slide_title_color;
+		background: @slide_title_color;
+		margin-bottom: 10px;
+		display: block;
+		
+		img {
+			float: left;
+			outline: 1px solid @hiline_color;
+			outline-offset: -1px;
+			margin-right: 34px
+		}
+		.articleInfo {
+			float: left;
+			padding-top: 5px;
+			width: 518px;
+			h1 {
+				color: @hiline_color;
+				font-size: 18px;
+				font-weight: normal;
+				margin: 0 0 12px 0;
+			}
+			span {
+				color: @span_color;
+				font-size: 12px;
+				margin-right: 30px;
+				i {
+					margin-right: 6px;
+				}
+			}
+			p {
+				color: @article_color;
+				font-size: 13px;
+				margin: 22px 0 0 0;
+			}
+		}
+	}
+	.articleItem:hover {
+		border: 1px solid @hiline_color;
+	}
+}
