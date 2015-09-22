@@ -1,0 +1,46 @@
+@image_path:"../images/";
+@fonts_path:"../fonts/";
+@background_color: #57595c;
+@menu_item_background_color:#969aa0;
+@menu_item_active_background_color:#d41918;
+@footer_background_color: #1e1f20;
+@footer_line_color: #37393b;
+@footer_text_color: #9c9c9c;
+@footer_sitemap_title_color: #454545;
+@hiline_color:#ffffff;
+@input_placeholder_color:#bec3cb;
+@colum_background_color:#bdbdbd;
+@colum_board_color:#a5a5a5;
+@gallery_board_color:#333536;
+@slideshow_control_color:#000000;
+@slide_title_color:#303233;
+@slide_date_color:#858585;
+@alpha50_black:rgba(0,0,0,0.5);
+@span_color:#c5a88b;
+@article_color:#aaaeb4;
+@article_title_background_color:#383a3b;
+@article_img_border_color:#c6baba;
+@article_footer_color:#a8acb2;
+@comment_date_color:#727579;
+@comment_textarea_color:#999999;
+@news_title_background_color:#acb1b7;
+@news_comment_icon_color:#555a5e;
+
+.include-custom-font(@fontsPath ,@family: arial, @weight: normal, @style: normal){
+    @font-face{
+        font-family: @family;
+        src:url('@{fontsPath}@{family}.eot');
+        src:url('@{fontsPath}@{family}.eot?#iefix') format('embedded-opentype'),
+            url('@{fontsPath}@{family}.woff') format('woff'),
+            url('@{fontsPath}@{family}.ttf') format('truetype'),
+            url('@{fontsPath}@{family}.svg#icon') format('svg');
+        font-weight: @weight;
+        font-style: @style;
+    }
+}
+
+.setbackground(@color:transparent,@image,@Xpo,@Ypo){
+  background-color: @color;
+  background-image:url(@image);
+  background-position: @Xpo @Ypo;
+}
