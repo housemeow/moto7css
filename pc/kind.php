@@ -71,7 +71,7 @@ $upload_path="../upload/"
         <!-- Scroll content -->
         <div class="content">
             <div class="bannerOutter">
-                <div class="bannerAD jumbotron">
+                <div class="bannerAD">
                     <div class="banner-ad-left">
                         <div class="small-ad small-ad-left active">SYM野狼SB300CR 暨<br>重車聯盟發表會</div>
                         <div class="small-ad small-ad-left">YAHAMA 發表智慧休眠版<br>CUXi IS</div>
@@ -226,9 +226,6 @@ $upload_path="../upload/"
                         </div>
 
                         <div class="car_cc">
-                            <div class="left_arrow">
-                                <img src="<?php echo $images_path ?>left_arrow.png">
-                            </div>
                             <div class="cc_list">
                                 <div>
                                     <div class="active"></div>
@@ -248,9 +245,6 @@ $upload_path="../upload/"
                                 <div>
                                     <div></div>
                                 </div>
-                            </div>
-                            <div class="right_arrow">
-                                <img src="<?php echo $images_path ?>right_arrow.png">
                             </div>
                         </div>
                         
