@@ -152,6 +152,53 @@ $upload_path="../upload/"
                             <div class="line"></div>
                             <span>車型</span>
                         </div>
+                        <div class="car_type">
+                            <div class="row">
+                                <div class="col-lg-1 left_arrow">
+                                    <img src="<?php echo $images_path ?>left_arrow.png">
+                                </div>
+                                <div class="col-lg-10 car_type_list">
+                                    <div class="active">
+                                        <div class="moto">
+                                            <img src="<?php echo $upload_path ?>bike5.png">
+                                            <div class="clip"></div>
+                                            <div class="name">速克達</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="moto">
+                                            <img src="<?php echo $upload_path ?>bike2.png">
+                                            <div class="clip"></div>
+                                            <div class="name">街車</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="moto">
+                                            <img src="<?php echo $upload_path ?>bike4.png">
+                                            <div class="clip"></div>
+                                            <div class="name">跑車</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="moto">
+                                            <img src="<?php echo $upload_path ?>bike1.png">
+                                            <div class="clip"></div>
+                                            <div class="name">美式機車</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="moto">
+                                            <img src="<?php echo $upload_path ?>bike3.png">
+                                            <div class="clip"></div>
+                                            <div class="name">越野車</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1 right_arrow">
+                                    <img src="<?php echo $images_path ?>right_arrow.png">
+                                </div>
+                            </div>
+                        </div>
                         
                         <div class="title">
                             <div class="line"></div>
