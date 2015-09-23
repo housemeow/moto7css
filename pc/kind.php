@@ -96,6 +96,105 @@ $upload_path="../upload/"
                             </div>
                         </div>
                     </div>
+                    <div class="search_car_form">
+                        <div class="search_info">
+                            <div class="search input-group">
+                                <input type="text" class="form-control" placeholder="請輸入關鍵字查詢">
+                                <img src="<?php echo $images_path ?>search_icon.png">
+                            </div>
+                            <div>熱門搜尋</div>
+                            <ul>
+                                <li class="active">國產車款</li>
+                                <li>女性騎乘</li>
+                                <li>重型機車</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="title">
+                            <div class="line"></div>
+                            <span>廠牌</span>
+                        </div>
+                        <div class="vender">
+                            <div class="row">
+                                <div class="col-lg-1 left_arrow">
+                                    <img src="<?php echo $images_path ?>left_arrow.png">
+                                </div>
+                                <div class="col-lg-10 vender_list">
+                                    <div>
+                                        <img src="<?php echo $upload_path ?>bmw.png">
+                                    </div>
+                                    <div>
+                                        <img src="<?php echo $upload_path ?>bmw.png">
+                                    </div>
+                                    <div>
+                                        <img src="<?php echo $upload_path ?>bmw.png">
+                                    </div>
+                                    <div>
+                                        <img src="<?php echo $upload_path ?>bmw.png">
+                                    </div>
+                                    <div>
+                                        <img src="<?php echo $upload_path ?>bmw.png">
+                                    </div>
+                                    <div>
+                                        <img src="<?php echo $upload_path ?>bmw.png">
+                                    </div>
+                                    <div>
+                                        <img src="<?php echo $upload_path ?>bmw.png">
+                                    </div>
+                                </div>
+                                <div class="col-lg-1 right_arrow">
+                                    <img src="<?php echo $images_path ?>right_arrow.png">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="title">
+                            <div class="line"></div>
+                            <span>車型</span>
+                        </div>
+                        
+                        <div class="title">
+                            <div class="line"></div>
+                            <span>排氣量</span>
+                        </div>
+                        
+                        <div class="title">
+                            <div class="line"></div>
+                            <span>年份</span>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <div class="checkbox active">
+                                    <label><input type="checkbox" value="">2000年以前</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="">2001-2011年</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="">2012年</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="">2013年</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="">2014年</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="">2015年</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="hotKind">
                         <div class="hotCar">
                             <img class="title" src="images/hotKindtitle.png">
@@ -132,7 +231,6 @@ $upload_path="../upload/"
                                     <span class="headline">VIR 50</span>
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
