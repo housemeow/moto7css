@@ -78,19 +78,6 @@ $upload_path="../upload/"
                     </div>
                 </div>
             </div>
-            <!--    <div class="bannerAD jumbotron">
-                <div class="banner-ad-left">
-                    <div class="small-ad small-ad-left active"></div>
-                    <div class="small-ad small-ad-left">down</div>
-                </div>
-                <div class="banner-ad-center">
-                    <img src="http://patentimages.storage.googleapis.com/CN103500443A/CN103500443AC00023.png"/>
-                </div>
-                <div class="banner-ad-right">
-                    <div class="small-ad small-ad-right">up</div>
-                    <div class="small-ad small-ad-right">down</div>
-                </div>
-            </div> -->
             <div class="container">
                 <div class="two_left">
                     <ol class="breadcrumb">
@@ -128,13 +115,14 @@ $upload_path="../upload/"
                             <div class="search input-group">
                                 <input type="text" class="form-control" placeholder="請輸入關鍵字查詢">
                                 <img src="<?php echo $images_path ?>search_icon.png">
+                                
+                                <div>熱門搜尋</div>
+                                <ul>
+                                    <li><span class="active">國產車款</span></li>
+                                    <li><span>女性騎乘</span></li>
+                                    <li><span>重型機車</span></li>
+                                </ul>
                             </div>
-                            <div>熱門搜尋</div>
-                            <ul>
-                                <li class="active">國產車款</li>
-                                <li>女性騎乘</li>
-                                <li>重型機車</li>
-                            </ul>
                         </div>
                         
                         <div class="title">
