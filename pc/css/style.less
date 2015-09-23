@@ -1495,24 +1495,26 @@ html {
                         }
                     }
                     .vender {
-                        // display: block;
-                        // position: relative;
-                        display: inline-block;
+                    	margin-top: 5px;
+                    	margin-bottom: 5px;
                         .left_arrow {
-                            // position: relative;
-                            // float: left;
-                            top: 42px;
-                            transform: translateY(-50%);
-                            display: inline-block;
+                            margin: 0 9px 0 32px;
+                            padding: 0;
+                            line-height: 97px;
+                            float: left;
+                            img {
+                            	vertical-align: middle;
+                            }
                         }
                         .vender_list {
                             padding: 0;
                             display: inline-block;
                             div {
                                 display: inline-block;
+                                margin-right: 5px;
                                 .rounded(10px);
-                                width: 85px;
-                                height: 85px;
+                                width: 92px;
+                                height: 92px;
                                 text-align: center;
                                 background: @vender_unselected_color;
                                 img {
@@ -1521,9 +1523,18 @@ html {
                                     transform: translateY(-50%);
                                 }
                             }
+                            div.active, div:hover{
+                                background: white;
+                            }
                         }
                         .right_arrow {
-                            display: inline-block;
+                            margin: 0 32px 0 0px;
+                            padding: 0;
+                            line-height: 97px;
+                            float: right;
+                            img {
+                            	vertical-align: middle;
+                            }
                         }
                     }
                     .car_type {

@@ -143,7 +143,7 @@ $upload_path="../upload/"
                                 <img src="<?php echo $images_path ?>left_arrow.png">
                             </div>
                             <div class="vender_list">
-                                <div>
+                                <div class="active">
                                     <img src="<?php echo $upload_path ?>bmw.png">
                                 </div>
                                 <div>
