@@ -261,10 +261,58 @@ html {
             height: 125px;
             margin: 0;
             padding: 19px 0 0 0;
-            ;
             text-align: center;
             .setbackground(transparent, '@{image_path}result.png', 0px, -111px);
         }
+		.bannerOutter{
+			background-color: @article_title_background_color;
+			.bannerAD{
+				background-color: transparent;
+	            width: 1140px;
+	            height: 125px;
+				margin-left: auto;
+				margin-right: auto;
+	            padding: 19px 0 0 0;
+	            text-align: center;
+			    .small-ad{
+			    	padding: 3px;
+			    	height: 36px;
+			    	line-height: 12px;
+			    	color: white;
+			    	font-size: 12px;
+			    }
+
+			    .banner-ad-left {
+			        float: left;
+			        width: 146px;
+			    }
+
+			    .banner-ad-center {
+			        display: inline-block;
+			        margin-left: 8px;
+			        margin-right: 8px;
+			    }
+			    
+			    .banner-ad-right {
+			        float: right;
+			        width: 146px;
+			    	height: 36px;
+			    }
+
+			    .small-ad:hover, .active{
+			        background: blue;
+			    }
+
+			    .small-ad-left{
+					text-align: right;
+			    }
+
+			    .small-ad-right{
+			    	text-align: left;
+			    }			
+			}
+		}
+
         .container {
             padding: 16px 0 34px 0;
             .three_left {
@@ -1399,7 +1447,8 @@ html {
                 }
                 .search_car_form {
                     width: 824px;
-                    margin: 15px 0 0 0 padding: 0 17px 16px 16px;
+                    margin: 15px 0 0 0;
+                    padding: 9px 7px 30px 8px;
                     .rounded(10px);
                     background-color: @colum_board_color;
                     position: relative;
@@ -1416,114 +1465,122 @@ html {
                         }
                     }
                     .vender {
-                        .row {
-                            display: block;
-                            position: relative;
-                            .left_arrow {
-                                // position: relative;
-                                top: 42px;
-                                transform: translateY(-50%);
-                                //    display: inline-block;
-                            }
-                            .vender_list {
-                                padding: 0;
+                        // display: block;
+                        // position: relative;
+                        display: inline-block;
+                        .left_arrow {
+                            // position: relative;
+                            // float: left;
+                            top: 42px;
+                            transform: translateY(-50%);
+                            display: inline-block;
+                        }
+                        .vender_list {
+                            padding: 0;
+                            display: inline-block;
+                            div {
                                 display: inline-block;
-                                div {
-                                    display: inline-block;
-                                    .rounded(10px);
-                                    width: 85px;
-                                    height: 85px;
-                                    text-align: center;
-                                    background: @vender_unselected_color;
-                                    img {
-                                        position: relative;
-                                        top: 50%;
-                                        transform: translateY(-50%);
-                                    }
+                                .rounded(10px);
+                                width: 85px;
+                                height: 85px;
+                                text-align: center;
+                                background: @vender_unselected_color;
+                                img {
+                                    position: relative;
+                                    top: 50%;
+                                    transform: translateY(-50%);
                                 }
                             }
-                            .right_arrow {
-                                display: inline-block;
-                            }
+                        }
+                        .right_arrow {
+                            display: inline-block;
                         }
                     }
                     .car_type {
-                        .row {
-                            display: block;
-                            position: relative;
-                            .left_arrow {
-                                // position: relative;
-                                top: 42px;
-                                transform: translateY(-50%);
-                                //    display: inline-block;
+                        .left_arrow {
+                            margin: 0 9px 0 32px;
+                            padding: 0;
+                            line-height: 122px;
+                            float: left;
+                            img {
+                            	vertical-align: middle;
                             }
-                            .car_type_list {
-                                padding: 0;
+                        }
+                        .car_type_list {
+                            display: inline-block;
+                            margin: 0;
+                            margin-left: 10px;
+                            padding: 0;
+                            div {
                                 display: inline-block;
-                                div {
-                                    display: inline-block;
-                                    position: relative;
-                                    .rounded(122px);
-                                    width: 122px;
-                                    height: 122px;
-                                    background: @car_type_unselected_color;
-                                    padding: 5px;
+                                position: relative;
+                                .rounded(122px);
+                                width: 122px;
+                                height: 122px;
+                                background: @car_type_unselected_color;
+                                padding: 5px;
+                                overflow: hidden;
+                                margin-right: 13px;
+                                div.moto {
+                                    position: absolute;
+                                    width: 112px;
+                                    height: 112px;
+                                    background: @car_type_background_color;
+                                    .rounded(112px);
+                                    border: 0;
                                     overflow: hidden;
-                                    margin-right: 10px;
-                                    div.moto {
-                                        position: absolute;
-                                        width: 112px;
-                                        height: 112px;
-                                        background: @car_type_background_color;
-                                        .rounded(112px);
-                                        border: 0;
-                                        overflow: hidden;
-                                        img {
-                                            position: relative;
-                                            top: 40%;
-                                            left: 50%;
-                                            transform: translateX(-50%) translateY(-50%);
-                                        }
-                                        div.clip {
-                                            position: absolute;
-                                            .rounded(0px);
-                                            width: 112px;
-                                            height: 28px;
-                                            left: 0px;
-                                            bottom: 0px;
-                                            background-color: @car_type_unselected_color;
-                                            overflow: hidden;
-                                        }
-                                        div.name {
-                                            position: absolute;
-                                            .rounded(0px);
-                                            padding: 0;
-                                            width: 112px;
-                                            height: 23px;
-                                            left: 0px;
-                                            bottom: 0px;
-                                            background-color: @car_type_unselected_color;
-                                            text-align: center;
-                                            color: white;
-                                            font-size: 12px;
-                                        }
+                                    img {
+                                        position: relative;
+                                        top: 40%;
+                                        left: 50%;
+                                        transform: translateX(-50%) translateY(-50%);
                                     }
-                                }
-                                div.active, div:hover{
-                                    background: white;
-                                    div.moto{
-                                        background: @car_type_background_color;
-                                        div.clip{
-                                            background-color: white;
-                                        }
-                                        div.name{
-                                        	background-color:red;
-                                        }
+                                    div.clip {
+                                        position: absolute;
+                                        .rounded(0px);
+                                        width: 112px;
+                                        height: 28px;
+                                        left: 0px;
+                                        bottom: 0px;
+                                        background-color: @car_type_unselected_color;
+                                        overflow: hidden;
+                                    }
+                                    div.name {
+                                        position: absolute;
+                                        .rounded(0px);
+                                        padding: 0;
+                                        width: 112px;
+                                        height: 23px;
+                                        left: 0px;
+                                        bottom: 0px;
+                                        background-color: @car_type_unselected_color;
+                                        text-align: center;
+                                        color: white;
+                                        font-size: 12px;
                                     }
                                 }
                             }
-                            .right_arrow {
-                                display: inline-block;
+                            div.active,
+                            div:hover {
+                                background: white;
+                                div.moto {
+                                    background: @car_type_background_color;
+                                    div.clip {
+                                        background-color: white;
+                                    }
+                                    div.name {
+                                        background-color: red;
+                                    }
+                                }
+                            }
+                        }
+                        .right_arrow {
+                            margin: 0 32px 0 0px;
+                            padding: 0;
+                            line-height: 122px;
+                            float: right;
+                            img {
+                            	vertical-align: middle;
                             }
                         }
                     }
@@ -1532,12 +1589,17 @@ html {
                         span {
                             position: relative;
                             display: inline-block;
-                            width: 70px;
+                            width: 74px;
+                            height: 24px;
                             text-align: center;
                             z-index: 10;
                             border: 0 solid;
                             border-radius: 10px;
-                            background-color: @search_title_color;
+                            background-color: @car_type_background_color;
+                            .drop-shadow(-1px,
+                            1px,
+                            1px,
+                            0.8);
                         }
                         .line {
                             position: absolute;
@@ -1546,6 +1608,10 @@ html {
                             background-color: white;
                             top: 10px;
                             left: 0;
+                            .drop-shadow(-1px,
+                            1px,
+                            1px,
+                            0.8);
                         }
                     }
                     .row {

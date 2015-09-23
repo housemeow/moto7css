@@ -63,7 +63,34 @@ $upload_path="../upload/"
         </nav>
         <!-- Scroll content -->
         <div class="content">
-            <div class="headerAD jumbotron"><img src="<?php echo $upload_path ?>ad_970x90.gif"></div>
+            <div class="bannerOutter">
+                <div class="bannerAD jumbotron">
+                    <div class="banner-ad-left">
+                        <div class="small-ad small-ad-left active">SYM野狼SB300CR 暨<br>重車聯盟發表會</div>
+                        <div class="small-ad small-ad-left">YAHAMA 發表智慧休眠版<br>CUXi IS</div>
+                    </div>
+                    <div class="banner-ad-center">
+                        <img src="<?php echo $upload_path ?>ad_830x90.jpg"/>
+                    </div>
+                    <div class="banner-ad-right">
+                        <div class="small-ad small-ad-right">YAMAHA MT-07：<br>初次機旅的感動</div>
+                        <div class="small-ad small-ad-right">2015 Team SUZUKI<br>HCSTAR 發表</div>
+                    </div>
+                </div>
+            </div>
+            <!--    <div class="bannerAD jumbotron">
+                <div class="banner-ad-left">
+                    <div class="small-ad small-ad-left active"></div>
+                    <div class="small-ad small-ad-left">down</div>
+                </div>
+                <div class="banner-ad-center">
+                    <img src="http://patentimages.storage.googleapis.com/CN103500443A/CN103500443AC00023.png"/>
+                </div>
+                <div class="banner-ad-right">
+                    <div class="small-ad small-ad-right">up</div>
+                    <div class="small-ad small-ad-right">down</div>
+                </div>
+            </div> -->
             <div class="container">
                 <div class="two_left">
                     <ol class="breadcrumb">
@@ -115,36 +142,34 @@ $upload_path="../upload/"
                             <span>廠牌</span>
                         </div>
                         <div class="vender">
-                            <div class="row">
-                                <div class="col-lg-1 left_arrow">
-                                    <img src="<?php echo $images_path ?>left_arrow.png">
+                            <div class="left_arrow">
+                                <img src="<?php echo $images_path ?>left_arrow.png">
+                            </div>
+                            <div class="vender_list">
+                                <div>
+                                    <img src="<?php echo $upload_path ?>bmw.png">
                                 </div>
-                                <div class="col-lg-10 vender_list">
-                                    <div>
-                                        <img src="<?php echo $upload_path ?>bmw.png">
-                                    </div>
-                                    <div>
-                                        <img src="<?php echo $upload_path ?>bmw.png">
-                                    </div>
-                                    <div>
-                                        <img src="<?php echo $upload_path ?>bmw.png">
-                                    </div>
-                                    <div>
-                                        <img src="<?php echo $upload_path ?>bmw.png">
-                                    </div>
-                                    <div>
-                                        <img src="<?php echo $upload_path ?>bmw.png">
-                                    </div>
-                                    <div>
-                                        <img src="<?php echo $upload_path ?>bmw.png">
-                                    </div>
-                                    <div>
-                                        <img src="<?php echo $upload_path ?>bmw.png">
-                                    </div>
+                                <div>
+                                    <img src="<?php echo $upload_path ?>bmw.png">
                                 </div>
-                                <div class="col-lg-1 right_arrow">
-                                    <img src="<?php echo $images_path ?>right_arrow.png">
+                                <div>
+                                    <img src="<?php echo $upload_path ?>bmw.png">
                                 </div>
+                                <div>
+                                    <img src="<?php echo $upload_path ?>bmw.png">
+                                </div>
+                                <div>
+                                    <img src="<?php echo $upload_path ?>bmw.png">
+                                </div>
+                                <div>
+                                    <img src="<?php echo $upload_path ?>bmw.png">
+                                </div>
+                                <div>
+                                    <img src="<?php echo $upload_path ?>bmw.png">
+                                </div>
+                            </div>
+                            <div class="right_arrow">
+                                <img src="<?php echo $images_path ?>right_arrow.png">
                             </div>
                         </div>
                         
@@ -153,50 +178,48 @@ $upload_path="../upload/"
                             <span>車型</span>
                         </div>
                         <div class="car_type">
-                            <div class="row">
-                                <div class="col-lg-1 left_arrow">
-                                    <img src="<?php echo $images_path ?>left_arrow.png">
-                                </div>
-                                <div class="col-lg-10 car_type_list">
-                                    <div class="active">
-                                        <div class="moto">
-                                            <img src="<?php echo $upload_path ?>bike5.png">
-                                            <div class="clip"></div>
-                                            <div class="name">速克達</div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="moto">
-                                            <img src="<?php echo $upload_path ?>bike2.png">
-                                            <div class="clip"></div>
-                                            <div class="name">街車</div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="moto">
-                                            <img src="<?php echo $upload_path ?>bike4.png">
-                                            <div class="clip"></div>
-                                            <div class="name">跑車</div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="moto">
-                                            <img src="<?php echo $upload_path ?>bike1.png">
-                                            <div class="clip"></div>
-                                            <div class="name">美式機車</div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="moto">
-                                            <img src="<?php echo $upload_path ?>bike3.png">
-                                            <div class="clip"></div>
-                                            <div class="name">越野車</div>
-                                        </div>
+                            <div class="left_arrow">
+                                <img src="<?php echo $images_path ?>left_arrow.png">
+                            </div>
+                            <div class="car_type_list">
+                                <div class="active">
+                                    <div class="moto">
+                                        <img src="<?php echo $upload_path ?>bike5.png">
+                                        <div class="clip"></div>
+                                        <div class="name">速克達</div>
                                     </div>
                                 </div>
-                                <div class="col-lg-1 right_arrow">
-                                    <img src="<?php echo $images_path ?>right_arrow.png">
+                                <div>
+                                    <div class="moto">
+                                        <img src="<?php echo $upload_path ?>bike2.png">
+                                        <div class="clip"></div>
+                                        <div class="name">街車</div>
+                                    </div>
                                 </div>
+                                <div>
+                                    <div class="moto">
+                                        <img src="<?php echo $upload_path ?>bike4.png">
+                                        <div class="clip"></div>
+                                        <div class="name">跑車</div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="moto">
+                                        <img src="<?php echo $upload_path ?>bike1.png">
+                                        <div class="clip"></div>
+                                        <div class="name">美式機車</div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="moto">
+                                        <img src="<?php echo $upload_path ?>bike3.png">
+                                        <div class="clip"></div>
+                                        <div class="name">越野車</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right_arrow">
+                                <img src="<?php echo $images_path ?>right_arrow.png">
                             </div>
                         </div>
                         
