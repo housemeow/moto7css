@@ -224,6 +224,35 @@ $upload_path="../upload/"
                             <div class="line"></div>
                             <span>排氣量</span>
                         </div>
+
+                        <div class="car_cc">
+                            <div class="left_arrow">
+                                <img src="<?php echo $images_path ?>left_arrow.png">
+                            </div>
+                            <div class="cc_list">
+                                <div>
+                                    <div class="active"></div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="right_arrow">
+                                <img src="<?php echo $images_path ?>right_arrow.png">
+                            </div>
+                        </div>
                         
                         <div class="title">
                             <div class="line"></div>
