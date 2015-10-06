@@ -1,0 +1,79 @@
+@import "library";
+@import "elements";
+
+body { // 貼上時請把這段刪掉
+    padding: 50px;
+    background-color: green;
+}
+
+.brands {
+    position: relative;
+    width: 165px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+    .header-logo {
+        position: absolute;
+        top: -7px;
+        left: -2px; // 退回border
+
+        a {
+            width: 165px;
+            height: 50px;
+            display: block;
+            margin: 0;
+            .setbackground(transparent, '@{image_path}qlinkcompany.png', 0px, 0px);
+
+        }
+    }
+
+    ul {
+        margin-top: 43px;
+        margin-bottom: 0;
+        li {
+            height: 44px;
+            border-top: 1px solid white;
+            background-color: @colum_background_color;
+
+            a {
+                color: @background_color;
+
+                div, span {
+                    display: inline-block; // 兩個併排
+                    height: 100%; // 固定高度
+                }
+
+                div {
+                    width: 57px;
+                    position: relative;
+                    margin: 0 auto;
+                    overflow: hidden;
+
+                    img {
+                        position: absolute; // 置中
+                        margin: auto;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                    }
+                }
+
+                span {
+                    position: absolute;
+                    margin-top: 6px;
+                    font-size: 11px;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        li:last-child {
+            border-radius: 0 0 7px 7px;
+        }
+
+        li.active, li:hover{
+            background-color: white;
+        }
+    }
+}
