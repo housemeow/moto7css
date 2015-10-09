@@ -301,4 +301,163 @@ html{
             }
 		}
     }
+    .footer {
+    	height: 233px;
+        position: relative;
+        padding: 40px 0 0 0;
+        color: @footer_text_color;
+        background-color: @footer_background_color;
+    	.container {
+    		position: relative;
+            padding: 0;
+            height: 121px;
+            .col-xs-2{
+                padding: 7px 12px 0 0;
+                .qrcode {
+                    float: right;
+                    width: 87px;
+                    text-align: center;
+                    font-size: 11px;
+                    img {
+                        margin: 0 0 12px 0;
+                    }
+                    h5 {
+                        font-weight: bold;
+                        font-size: 11px;
+                        margin: 0 0 4px 0;
+                    }
+                    span{
+                    	font-size: 10px;
+                    }
+                }
+            }
+            .col-xs-7 {
+                border-right: 1px solid @footer_line_color;
+                border-left: 1px solid @footer_line_color;
+                padding: 8px 23px 0 23px;
+                dl {
+                    height: 100%;
+                    float: left;
+                    font-size: 12px;
+                    margin: 0 48px 0 0;
+                    dt {
+                        display: block;
+                        height: 21px;
+                        width: 51px;
+                        margin: 0 0 18px 0;
+                        background-color: @footer_sitemap_title_color;
+                        text-align: center;
+                        padding: 3px 0 0 0;
+                        font-weight: normal;
+                        .border-radius(@topright: 10px,
+                        @bottomright: 10px,
+                        @bottomleft: 10px,
+                        @topleft: 10px);
+                        a {
+                            color: @footer_background_color;
+                        }
+                        a:hover {
+                            text-decoration: none;
+                            color: @hiline_color;
+                        }
+                    }
+                    ul {
+                        float: left;
+                        padding: 0 0 0 4px;
+                        li {
+                            display: block;
+                            height: 24px;
+                            a {
+                                color: @footer_text_color;
+                            }
+                            a:hover {
+                                text-decoration: none;
+                                color: @hiline_color;
+                            }
+                        }
+                    }
+                    ul+ul {
+                        padding: 0 0 0 22px;
+                    }
+                }
+                dl:last-child {
+                    margin: 0;
+                }
+            }
+           
+            .col-xs-3{
+                padding: 0;
+                text-align: right;
+                .fbfans {
+                    height: 64px;
+                    width: 165px;
+                    margin: 0;
+                    padding: 14px;
+                    border-bottom: 1px solid @footer_line_color;
+                    a {
+                        color: @footer_text_color;
+                        span {
+                            width: 36px;
+                            height: 36px;
+                            float: left;
+                            margin: 0 11px 0 0;
+                            .fa-inverse {
+                                color: @footer_background_color;
+                            }
+                        }
+                        h5 {
+                            text-align: left;
+                            margin: 4px 0 0 0;
+                            font-size: 12px;
+                            font-weight: bold;
+                            line-height: 14px;
+                        }
+                    }
+                    a:hover {
+                        color: @hiline_color;
+                        text-decoration: none;
+                    }
+                }
+                .share {
+                    width: 165px;
+                    padding: 14px;
+                    h5 {
+                        text-align: left;
+                        margin: 0 0 8px 0;
+                        font-size: 12px;
+                        font-weight: bold;
+                    }
+                    ul {
+                        padding: 0 0 0 3px;
+                        a {
+                            display: block;
+                            float: left;
+                            width: 30px;
+                            height: 30px;
+                            margin: 0 10px 0 0;
+                            color: @footer_text_color;
+                            text-align: center;
+                        }
+                        a:hover {
+                            color: @hiline_color;
+                        }
+                    }
+                }
+            }
+    	}
+    	.copyright {
+            width: 272px;
+            height: 5px;
+            position: absolute;
+            bottom: 14px;
+            right: 14px;
+            .setbackground(transparent,'@{image_path}copyright.png',0px,0px);
+        }
+        hr{
+        	
+        	margin: 28px 0 0 0;	
+        	border-top: 1px solid @footer_line_color;
+	            	           
+        }
+    }
 }
