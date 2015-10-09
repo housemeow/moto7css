@@ -65,6 +65,7 @@ body {
                 padding: 15px;
                 height: 75px;
                 .content {
+                    font-size: 8pt;
                     line-height: 15px;
                 }
             }
@@ -101,6 +102,38 @@ body {
                 }
             }
         }
+        li.disscuss-panel {
+            display: block;
+            div.center-info {
+                padding: 15px;
+                width: 100%;
+                div.disscuss-table {
+                    margin-top: 15px;
+                    div.disscuss-row {
+                        display: inline-table;
+                        width: 100%;
+                        div.disscuss-cell {
+                            display: table-cell;
+                            padding-bottom: 15px;
+                            width: 50%;
+                            img {
+                                display: inline-block;
+                                vertical-align: top;
+                                margin-right: 10px;
+                                width: 36px;
+                                height: 36px;
+                            }
+                            div.content {
+                                display: inline-block;
+                                font-size: 8pt;
+                                width: 240px;
+                                line-height: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
         li div.title {
             color: #ededed;
             display: block;
@@ -134,7 +167,8 @@ body {
             color: #aaafb3;
             font-size: 10pt;
             line-height: 25px;
-            font.more {
+            span.more {
+                margin-left: 2px;
                 font-size: 8pt;
                 display: inline-block;
                 font-weight: bold;
