@@ -47,6 +47,7 @@ body {
     ul.block-panel {
         padding: 10px;
         padding-bottom: 0px;
+        margin-bottom: 0px;
         li {
             padding-bottom: 10px;
             display: table;
@@ -64,10 +65,15 @@ body {
                 vertical-align: top;
                 padding: 15px;
                 height: 75px;
+                position: relative;
                 .content {
                     font-size: 8pt;
                     line-height: 15px;
                 }
+            }
+            div.popular-count {
+                top: 7px;
+                right: 12px;
             }
         }
         li.right-image-panel {
@@ -76,8 +82,13 @@ body {
                 padding: 15px;
                 display: table-cell;
                 vertical-align: top;
+                position: relative;
                 .title > .info {
                     width: 215px;
+                }
+                div.popular-count {
+                    bottom: 15px;
+                    right: 12px;
                 }
             }
             img.right-photo {
@@ -87,10 +98,20 @@ body {
         }
         li.gallery-panel {
             display: block;
+            position: relative;
+            div.popular-count {
+                top: 13px;
+                right: 12px;
+            }
             div.top-info {
                 display: inline-block;
                 padding: 12px;
                 width: 100%;
+                position: relative;
+                div.popular-count {
+                    bottom: 15px;
+                    right: 12px;
+                }
             }
             div.bottom-photos {
                 display: inline-table;
@@ -107,6 +128,11 @@ body {
             div.center-info {
                 padding: 15px;
                 width: 100%;
+                position: relative;
+                div.popular-count {
+                    top: 15px;
+                    right: 12px;
+                }
                 div.disscuss-table {
                     margin-top: 15px;
                     div.disscuss-row {
@@ -134,23 +160,28 @@ body {
                 }
             }
         }
-        li.message-panel{
+        li.message-panel {
             display: inline-table;
-            div.left-photo{
+            position: relative;
+            div.popular-count {
+                top: 15px;
+                right: 12px;
+            }
+            div.left-photo {
                 width: 50px;
                 height: 50px;
                 display: table-cell;
                 padding-right: 1px;
-                img{
+                img {
                     width: 100%;
                     height: 100%;
                 }
             }
-            div.right-info{
+            div.right-info {
                 display: table-cell;
                 padding-left: 25px;
                 width: 575px;
-                .title > .content{
+                .title > .content {
                     display: inline-block;
                     padding-left: 5px;
                     font-size: 10pt;
@@ -200,11 +231,74 @@ body {
                 color: #d61a19;
             }
         }
+        li div.popular-count {
+            height: 20px;
+            position: absolute;
+            img {
+                display: inline-block;
+                margin-top: -2px;
+            }
+            span {
+                line-height: 20px;
+                color: #c3a88a;
+            }
+        }
         li:nth-child(odd) .background {
             background-color: #000000;
         }
         li:nth-child(even) .background {
             background-color: #313234;
+        }
+        li:last-child {
+            padding-bottom: 0px;
+        }
+    }
+    div.more-panel {
+        padding: 8px 10px 8px 10px;
+        display: inline-table;
+        div.load-more {
+            display: table-cell;
+            width: 490px;
+            height: 40px;
+            .rounded(20px);
+            .bordered(#FFF, #FFF, #FFF, #FFF, 4px);
+            text-align: center;
+            img.left-icon {
+                float: left;
+                margin-top: 9px;
+                margin-left: 15px;
+            }
+            img.right-icon {
+                float: right;
+                margin-top: 9px;
+                margin-right: 15px;
+            }
+            span.hint-text {
+                padding-top: 10px;
+                line-height: 30px;
+                color: #ffffff;
+                font-weight: bold;
+            }
+        }
+        div.enter-page {
+            display: table-cell;
+            width: 130px;
+            height: 40px;
+            background-color: #d51918;
+            .rounded(20px);
+            .bordered(#FFF, #FFF, #FFF, #FFF, 4px);
+            text-align: center;
+            img.right-icon {
+                float: right;
+                margin-top: 12px;
+                margin-right: 10px;
+            }
+            span.hint-text {
+                padding-top: 10px;
+                line-height: 30px;
+                color: #ffffff;
+                font-weight: bold;
+            }
         }
     }
 }

@@ -46,6 +46,10 @@ $upload_path="../upload/"
 			            <div class="content">
 			                摩托車綜合購物網站「Webike」自2000年在日本開幕，14年來已成為日......<span class="more">[ more ]</span>
 			            </div>
+				    	<div class="popular-count">
+				    		<img src="<?=$images_path?>message_icon.png" />
+				    		<span>126</span>
+				    	</div>
 			        </div>
 			    </li>
 			    <li class="right-image-panel">
@@ -60,6 +64,10 @@ $upload_path="../upload/"
 			            <div class="content">
 			                為了精進MOTO7 教練團騎乘技術，提升騎術訓練活動以及安全駕駛內容，MOTO7 主編楊斌與安駕講師小天特別安排到日本的Suzuka 安全駕駛教育中心，來學習最新的騎乘技巧與觀念...<span class="more">[ more ]</span>
 			            </div>
+			            <div class="popular-count">
+				    		<img src="<?=$images_path?>message_icon.png" />
+				    		<span>12,136</span>
+				    	</div>
 			        </div>
 			        <img class="right-photo" src="<?=$upload_path?>news_photo_2.jpg" />
 			    </li>
@@ -72,6 +80,10 @@ $upload_path="../upload/"
 							</div>
 			                <div class="info">SYM 野狼SB300/CR 暨重車聯盟發表會報導</div>
 			            </div>
+			            <div class="popular-count">
+				    		<img src="<?=$images_path?>message_icon.png" />
+				    		<span>12,136</span>
+				    	</div>
 			    	</div>
 			    	<div class="bottom-photos">
 			    		<img src="<?=$upload_path?>news_photo_3.jpg" />
@@ -90,6 +102,10 @@ $upload_path="../upload/"
 							</div>
 			                <div class="info">SYM 野狼SB300/CR 暨重車聯盟發表會報導</div>
 			            </div>
+			    		<div class="popular-count">
+				    		<img src="<?=$images_path?>message_icon.png" />
+				    		<span>12,136</span>
+				    	</div>
 			            <div class="disscuss-table">
 			            	<div class="disscuss-row">
 			            		<div class="disscuss-cell">
@@ -151,6 +167,10 @@ $upload_path="../upload/"
 			                </div>
 			            </div>
 			    	</div>
+		    		<div class="popular-count">
+			    		<img src="<?=$images_path?>message_icon.png" />
+			    		<span>126</span>
+			    	</div>
 			    </li>
 			    <li class="message-panel">
 			    	<div class="left-photo">
@@ -167,6 +187,10 @@ $upload_path="../upload/"
 			                </div>
 			            </div>
 			    	</div>
+		    		<div class="popular-count">
+			    		<img src="<?=$images_path?>message_icon.png" />
+			    		<span>126</span>
+			    	</div>
 			    </li>
 			    <li class="left-image-panel">
 			        <img class="left-photo" src="<?=$upload_path?>news_photo_1.jpg" />
@@ -181,6 +205,10 @@ $upload_path="../upload/"
 			            <div class="content">
 			                摩托車綜合購物網站「Webike」自2000年在日本開幕，14年來已成為日......<span class="more">[ more ]</span>
 			            </div>
+			            <div class="popular-count">
+				    		<img src="<?=$images_path?>message_icon.png" />
+				    		<span>126</span>
+				    	</div>
 			        </div>
 			    </li>
 			    <li class="right-image-panel">
@@ -195,6 +223,10 @@ $upload_path="../upload/"
 			            <div class="content">
 			                為了精進MOTO7 教練團騎乘技術，提升騎術訓練活動以及安全駕駛內容，MOTO7 主編楊斌與安駕講師小天特別安排到日本的Suzuka 安全駕駛教育中心，來學習最新的騎乘技巧與觀念...<span class="more">[ more ]</span>
 			            </div>
+			            <div class="popular-count">
+				    		<img src="<?=$images_path?>message_icon.png" />
+				    		<span>12,136</span>
+				    	</div>
 			        </div>
 			        <img class="right-photo" src="<?=$upload_path?>news_photo_2.jpg" />
 			    </li>
@@ -207,6 +239,10 @@ $upload_path="../upload/"
 							</div>
 			                <div class="info">SYM 野狼SB300/CR 暨重車聯盟發表會報導</div>
 			            </div>
+			            <div class="popular-count">
+				    		<img src="<?=$images_path?>message_icon.png" />
+				    		<span>12,136</span>
+				    	</div>
 			    	</div>
 			    	<div class="bottom-photos">
 			    		<img src="<?=$upload_path?>news_photo_3.jpg" />
@@ -225,6 +261,10 @@ $upload_path="../upload/"
 							</div>
 			                <div class="info">SYM 野狼SB300/CR 暨重車聯盟發表會報導</div>
 			            </div>
+			            <div class="popular-count">
+				    		<img src="<?=$images_path?>message_icon.png" />
+				    		<span>12,136</span>
+				    	</div>
 			            <div class="disscuss-table">
 			            	<div class="disscuss-row">
 			            		<div class="disscuss-cell">
@@ -272,6 +312,18 @@ $upload_path="../upload/"
 		            </div>
 			    </li>
 			</ul>
+			<div class="more-panel">
+				<div class="load-more">
+					<img class="left-icon" src="<?=$images_path?>load_more.png" />
+					<span class="hint-text">載入更多資訊</span>
+					<img class="right-icon" src="<?=$images_path?>load_more.png" />
+				</div>
+				&nbsp;
+				<div class="enter-page">
+					<span class="hint-text">進入頁面專區</span>
+					<img class="right-icon" src="<?=$images_path?>enter_page.png" />
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
