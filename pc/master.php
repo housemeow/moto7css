@@ -90,6 +90,95 @@ $upload_path="../upload/"
         </div>
         <div class="container">
         	<div class="three_left">
+				<div class="brands">
+					<div class="header-logo">
+						<a href="#"></a>
+					</div>
+					<ul>
+						<li class="active">
+							<a href="#"><div><img src="<?php echo $upload_path ?>brands1.png" alt="brands"></div>
+							<span>該廠牌最新文章A<br>該廠牌最新文章B</span></a>
+						</li>
+						<li>
+							<a href="#"><div><img src="<?php echo $upload_path ?>brands2.png" alt="brands"></div>
+							<span>該廠牌最新文章A<br>該廠牌最新文章B</span></a>
+						</li>
+						<li>
+							<a href="#"><div><img src="<?php echo $upload_path ?>brands3.png" alt="brands"></div>
+							<span>該廠牌最新文章A<br>該廠牌最新文章B</span></a>
+						</li>
+						<li>
+							<a href="#"><div><img src="<?php echo $upload_path ?>brands4.png" alt="brands"></div>
+							<span>該廠牌最新文章A<br>該廠牌最新文章B</span></a>
+						</li>
+						<li>
+							<a href="#"><div><img src="<?php echo $upload_path ?>brands5.png" alt="brands"></div>
+							<span>該廠牌最新文章A<br>該廠牌最新文章B</span></a>
+						</li>
+						<li>
+							<a href="#"><div><img src="<?php echo $upload_path ?>brands6.png" alt="brands"></div>
+							<span>該廠牌最新文章A<br>該廠牌最新文章B</span></a>
+						</li>
+						<li>
+							<a href="#"><div><img src="<?php echo $upload_path ?>brands7.png" alt="brands"></div>
+							<span>該廠牌最新文章A<br>該廠牌最新文章B</span></a>
+						</li>
+						<li>
+							<a href="#"><div><img src="<?php echo $upload_path ?>brands8.png" alt="brands"></div>
+							<span>該廠牌最新文章A<br>該廠牌最新文章B</span></a>
+						</li>
+						<li>
+							<a href="#"><div><img src="<?php echo $upload_path ?>brands9.png" alt="brands"></div>
+							<span>該廠牌最新文章A<br>該廠牌最新文章B</span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="models">
+					<div class="header-logo">
+						<a href="#"></a>
+					</div>
+					<ul>
+						<li>
+							<a href="#"><div><img src="<?php echo $upload_path ?>models1.png" alt="models"></div>
+							<span>Many 50</span></a>
+						</li>
+						<li>
+							<a href="#"><div><img src="<?php echo $upload_path ?>models1.png" alt="models"></div>
+							<span>Many 50</span></a>
+						</li>
+						<li>
+							<a href="#"><div><img src="<?php echo $upload_path ?>models1.png" alt="models"></div>
+							<span>Many 50</span></a>
+						</li>
+						<li>
+							<a href="#"><div><img src="<?php echo $upload_path ?>models1.png" alt="models"></div>
+							<span>Many 50</span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="parts">
+					<div class="header-logo">
+						<a href="#"></a>
+					</div>
+					<ul>
+						<li>
+							<a href="#"><div><img src="<?php echo $upload_path ?>parts1.png" alt="parts"></div>
+							<span>Many 50</span></a>
+						</li>
+						<li>
+							<a href="#"><div><img src="<?php echo $upload_path ?>parts1.png" alt="parts"></div>
+							<span>Many 50</span></a>
+						</li>
+						<li>
+							<a href="#"><div><img src="<?php echo $upload_path ?>parts1.png" alt="parts"></div>
+							<span>Many 50</span></a>
+						</li>
+						<li>
+							<a href="#"><div><img src="<?php echo $upload_path ?>parts1.png" alt="parts"></div>
+							<span>Many 50</span></a>
+						</li>
+					</ul>
+				</div>
         	</div>
         	<div class="three_center">
         	</div>

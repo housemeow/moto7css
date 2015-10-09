@@ -1,0 +1,75 @@
+@import "library";
+@import "elements";
+
+.parts {
+    position: relative;
+    width: 165px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 11px;
+
+    .header-logo {
+        position: absolute;
+        top: -7px;
+        left: -2px; // 退回border
+
+        a {
+            width: 165px;
+            height: 50px;
+            display: block;
+            margin: 0;
+            .setbackground(transparent, '@{image_path}parts.png', 0px, 0px);
+
+        }
+    }
+
+    ul {
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 0;
+        padding-top: 21px;
+        li {
+            padding: 0 14px;
+            a {
+                color: @background_color;
+                text-decoration:none;
+
+                div {
+                    position: relative;
+                    width: 136px;
+                    height: 96px;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    .setbackground(transparent, '@{image_path}border.png', 0px, 0px);
+
+                    img {
+                        position: absolute;
+                        margin: auto;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                    }
+                }
+
+                span {
+                    display: block;
+                    margin: 6px 0;
+                    font-size: 11px;
+                }
+
+                span:before {
+                    content: "▪︎ ";
+                    color: red;
+                    font-size: 16px;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        li:last-child {
+            padding-bottom: 4px;
+        }
+    }
+}
