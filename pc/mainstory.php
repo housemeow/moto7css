@@ -44,7 +44,7 @@ $upload_path="../upload/"
 			                <div class="info">GRO 全球賽車油與WeBike摩托百貨合作</div>
 			            </div>
 			            <div class="content">
-			                摩托車綜合購物網站「Webike」自2000年在日本開幕，14年來已成為日......<span class="more">[ more ]</span>
+			                摩托車綜合購物網站「Webike」自2000年在日本開幕，14年來已成為日......<a class="more">[ more ]</a>
 			            </div>
 				    	<div class="popular-count">
 				    		<img src="<?=$images_path?>message_icon.png" />
@@ -62,7 +62,7 @@ $upload_path="../upload/"
 			                <div class="info">MOTO7 教練團日本 Suzuka 安駕訓練受訓紀實</div>
 			            </div>
 			            <div class="content">
-			                為了精進MOTO7 教練團騎乘技術，提升騎術訓練活動以及安全駕駛內容，MOTO7 主編楊斌與安駕講師小天特別安排到日本的Suzuka 安全駕駛教育中心，來學習最新的騎乘技巧與觀念...<span class="more">[ more ]</span>
+			                為了精進MOTO7 教練團騎乘技術，提升騎術訓練活動以及安全駕駛內容，MOTO7 主編楊斌與安駕講師小天特別安排到日本的Suzuka 安全駕駛教育中心，來學習最新的騎乘技巧與觀念...<a class="more">[ more ]</a>
 			            </div>
 			            <div class="popular-count">
 				    		<img src="<?=$images_path?>message_icon.png" />
@@ -203,7 +203,7 @@ $upload_path="../upload/"
 			                <div class="info">GRO 全球賽車油與WeBike摩托百貨合作</div>
 			            </div>
 			            <div class="content">
-			                摩托車綜合購物網站「Webike」自2000年在日本開幕，14年來已成為日......<span class="more">[ more ]</span>
+			                摩托車綜合購物網站「Webike」自2000年在日本開幕，14年來已成為日......<a class="more">[ more ]</a>
 			            </div>
 			            <div class="popular-count">
 				    		<img src="<?=$images_path?>message_icon.png" />
@@ -221,7 +221,7 @@ $upload_path="../upload/"
 			                <div class="info">MOTO7 教練團日本 Suzuka 安駕訓練受訓紀實</div>
 			            </div>
 			            <div class="content">
-			                為了精進MOTO7 教練團騎乘技術，提升騎術訓練活動以及安全駕駛內容，MOTO7 主編楊斌與安駕講師小天特別安排到日本的Suzuka 安全駕駛教育中心，來學習最新的騎乘技巧與觀念...<span class="more">[ more ]</span>
+			                為了精進MOTO7 教練團騎乘技術，提升騎術訓練活動以及安全駕駛內容，MOTO7 主編楊斌與安駕講師小天特別安排到日本的Suzuka 安全駕駛教育中心，來學習最新的騎乘技巧與觀念...<a class="more">[ more ]</a>
 			            </div>
 			            <div class="popular-count">
 				    		<img src="<?=$images_path?>message_icon.png" />
