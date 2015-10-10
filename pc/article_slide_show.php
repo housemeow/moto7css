@@ -20,9 +20,9 @@
     <script src="js/function.js"></script>
   </head>
   <body>
-    <div class="article_slide_show">
-      <div class="top_col">
-        <div class="left_part">
+    <div class="article-slide-show">
+      <div class="top-col">
+        <div class="left-part">
           <img src="images/japantravel.png" />
         </div>
         <div class="read">
@@ -30,7 +30,7 @@
           <a href=""><img src="images/readmore.png"></a>
         </div>
       </div>
-      <div class="right_part">
+      <div class="right-part">
         <a href=""><div class="part">
           <img src="images/car1.png">
           <p class="content">CUSTOM MOTO：KYMCO QUANNON BY禾倉技研</p>
