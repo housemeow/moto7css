@@ -589,5 +589,87 @@ $upload_path="../upload/"
 				</div>
 			</div>
 		</div>
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2">
+						<div class="qrcode">
+							<img src="<?php echo $images_path ?>qrcode.jpg" alt="http://www.moto7.net">
+							<h5>MOTO7 手機版</h5>
+							<span>掃描 QR code<br/>加入我的最愛</span>
+						</div>
+					</div>
+					<div class="col-xs-7">
+						<dl>
+							<dt><a href="#">首頁</a></dt>
+							<ul>
+								<li><a href="#">關於MOTO7</a></li>
+								<li><a href="#">會員說明</a></li>
+								<li><a href="#">隱私權政策</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">報名</a></li>
+							</ul>
+						</dl>
+						<dl>
+							<dt><a href="#">新聞</a></dt>
+							<ul>
+								<li><a href="#">國內車廠</a></li>
+								<li><a href="#">國外車廠</a></li>
+								<li><a href="#">部品</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">活動</a></li>
+								<li><a href="#">賽事</a></li>
+							</ul>
+						</dl>
+						<dl>
+							<dt><a href="#">專欄</a></dt>
+							<ul>
+								<li><a href="#">特別企劃</a></li>
+								<li><a href="#">安全駕駛</a></li>
+								<li><a href="#">騎乘技術</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">機械原理</a></li>
+								<li><a href="#">機車旅遊</a></li>
+							</ul>
+						</dl>
+						<dl>
+							<dt><a href="#">社群</a></dt>
+							<ul>
+								<li><a href="#">車廠</a></li>
+								<li><a href="#">車款</a></li>
+								<li><a href="#">部品</a></li>
+							</ul>
+						</dl>
+						<dl>
+							<dt><a href="#">討論</a></dt>
+						</dl>
+					</div>
+					<div class="col-xs-3">
+						<div class="fbfans">
+							<a href="#">
+								<span class="fa-stack fa-lg">
+									<i class="fa fa-square fa-stack-2x"></i>
+									<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+								</span>
+								<h5>MOTO7<br/>官方粉絲團</h5>
+							</a>
+						</div>
+						<div class="share">
+							<h5>分享MOTO7</h5>
+							<ul>
+								<a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+								<a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+								<a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="copyright"></div>
+		</div>
 	</body>
 </html>
