@@ -1,60 +1,77 @@
+@import "library";
+
 .article-slide-show {
-    .top-col {
-        width: 644px;
-        height: 295px;
-        background-color: #333536;
-        position: absolute;
-    }
-    .left-part {
-        margin-top: 10px;
-        margin-left: 10px;
+    width: 644px;
+    height: 295px;
+    background-color: #333536;
+    padding: 10px 11px 10px 10px;
+    position: relative;
+
+    .article-preview {
         width: 411px;
         height: 275px;
         position: absolute;
-    }
-    .read {
-        padding-left: 10px;
-        padding-top: 245px;
-        width: 411px;
-        height: 44px;
-        position: absolute;
-        p {
-            padding: 10px;
+
+
+        a.article-title {
+            position: absolute;
+            bottom: 0;
+            left: 10px;
             color: white;
-            float: left;
         }
-        img {
-            margin-left: 333px;
-            margin-top: -27px;
-            float: left;
+
+        a.read-article {
+            position: absolute;
+            right: 8px;
+            bottom: -3px;
         }
     }
-    .right-part {
-        width: 210px;
-        height: 268px;
+
+    .article-list {
+        width: 216px;
+        height: 275px;
         position: absolute;
-        margin-left: 421px;
-        margin-top: 10px;
-    }
-    .part {
-        width: 210px;
-        height: 68px;
-        border-color: white;
-        border-style: solid;
-        border-width: 0.5px;
-        img {
-            margin-left: 8px;
-            margin-top: 8px;
-            display: inline;
+        right: 10px;
+        background-color: black; 
+
+        .article-item {
+            width: 216px;
+            height: 68px;
+
+            margin-left: 1px;
+            margin-bottom: 1px;
+            border-left: 1px solid @background_color;
+            border-bottom: 1px solid @background_color;
+
+            img {
+                margin: 9px 8px;
+                display: inline-block;
+            }
+
+            .article-title {
+                width: 110px;
+                margin: 9px 0;
+                font-size: 11px;
+                line-height: 14px;
+                color: white;
+                position: absolute;
+            }
+
+            .hover-line {
+                width: 2px;
+                height: 67px;
+                border: 1px solid transparent;
+                position: absolute;
+                display: inline-block;
+                right: 1px;
+            }
         }
-    }
-    .content {
-        font-size: 11px;
-        line-height: 14px;
-        color: white;
-        width: 111px;
-        float: right;
-        margin-top: 8px;
-        margin-right: 8px;
+
+        .article-item:hover {
+            .hover-line {
+                background-color: @menu_item_active_background_color;
+                border: 1px solid transparent;
+            }
+        }
     }
 }

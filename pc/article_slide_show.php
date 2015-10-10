@@ -21,31 +21,31 @@
   </head>
   <body>
     <div class="article-slide-show">
-      <div class="top-col">
-        <div class="left-part">
-          <img src="images/japantravel.png" />
-        </div>
-        <div class="read">
-          <a href=""><p>2014 TMAX 530 車主日本GP之旅：茂木賽道篇</p></a>
-          <a href=""><img src="images/readmore.png"></a>
-        </div>
+      <div class="article-preview">
+        <img src="images/japantravel.png" />
+        <a class="article-title" href=""><p>2014 TMAX 530 車主日本GP之旅：茂木賽道篇</p></a>
+        <a class="read-article" href=""><img src="images/readmore.png"></a>
       </div>
-      <div class="right-part">
-        <a href=""><div class="part">
+      <div class="article-list">
+        <a href=""><div class="article-item">
           <img src="images/car1.png">
-          <p class="content">CUSTOM MOTO：KYMCO QUANNON BY禾倉技研</p>
+          <span class="article-title">CUSTOM MOTO：KYMCO QUANNON BY禾倉技研</span>
+          <div class="hover-line"></div>
         </div></a>
-        <a href=""><div class="part">
+        <a href=""><div class="article-item">
           <img src="images/car2.png">
-          <p class="content">GRO 全球賽車油與WEBIKE 摩托百貨合作</p>
+          <span class="article-title">GRO 全球賽車油與WEBIKE 摩托百貨合作</span>
+          <div class="hover-line"></div>
         </div></a>
-        <a href=""><div class="part">
+        <a href=""><div class="article-item">
           <img src="images/car3.png">
-          <p class="content">全新BMW R1200 RS – 旅跑車的全新演繹</p>
+          <span class="article-title">全新BMW R1200 RS – 旅跑車的全新演繹</span>
+          <div class="hover-line"></div>
         </div></a>
-        <a href=""><div class="part">
+        <a href=""><div class="article-item">
           <img src="images/car4.png">
-          <p class="content">完美新境界：2015 BMW S1000RR</p>
+          <span class="article-title">完美新境界：2015 BMW S1000RR</span>
+          <div class="hover-line"></div>
         </div></a>
       </div>
     </div>
