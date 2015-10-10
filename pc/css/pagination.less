@@ -1,60 +1,81 @@
+@import "library";
+@import "elements";
+
+body {
+	background: gray;
+}
 
 .pagination {
-	float: right;
-	margin: 0 3px 0 0;
-	position: relative;
-}
-.pagination.left {
-	float: left;
-}
-.pagination:before {
-	content: "";
-	background-color: @hiline_color;
-	position: absolute;
-	width: 90%;
-	height: 1px;
-	top: 50%;
-}
-.pagination>li>a,
-.pagination>li>span {
-	font-size: 12px;
-	text-align: center;
-	border: 2px solid @hiline_color;
-	height: 23px;
-	width: 23px;
-	border-radius: 100%;
-	margin-right: 7px;
-	padding: 2px 0 0 0;
-	color: @background_color;
-}
-.pagination>li:first-child>a,
-.pagination>li:first-child>span {
-	border-top-left-radius: 23px;
-	border-bottom-left-radius: 23px;
-}
-.pagination>.disabled>span,
-.pagination>.disabled>span:hover,
-.pagination>.disabled>span:focus,
-.pagination>.disabled>a,
-.pagination>.disabled>a:hover,
-.pagination>.disabled>a:focus {
-	border-color: @hiline_color;
-}
-.pagination>.active>a,
-.pagination>.active>span,
-.pagination>.active>a:hover,
-.pagination>.active>span:hover,
-.pagination>.active>a:focus,
-.pagination>.active>span:focus {
-	color: @hiline_color;
-	background-color: @menu_item_active_background_color;
-	border-color: @hiline_color;
-}
-.pagination>li>a:hover,
-.pagination>li>span:hover,
-.pagination>li>a:focus,
-.pagination>li>span:focus {
-	color: @hiline_color;
-	background-color: @menu_item_active_background_color;
-	border-color: @hiline_color;
+	margin: 0;
+
+	a, ul, div {
+		display: inline-block;
+	}
+
+	ul {
+		margin-bottom: 0;
+		font-size: 0;
+		li {
+			font-size: 14px;
+			display: inline-block;
+
+			a {
+				text-decoration: none;
+
+				div.pagination-item {
+					.square(25px);
+					.rounded(12.5px);
+					text-align: center;
+					background-color: @hiline_color;
+					border: 2px solid @hiline_color;
+					color: @background_color;
+
+					span.dot {
+						position: relative;
+						top: -3px;
+					}
+				}
+
+				div.pagination-item.active:not(.disable),
+				div.pagination-item:hover:not(.disable){
+					margin: 0;
+					background-color: @menu_item_active_background_color;
+					color: @hiline_color;
+				}
+			}
+
+			div.hr-line {
+				padding-bottom: 4px;
+				span{
+					.size(5px, 1px);
+					background-color: @hiline_color;
+					display: block;
+				}
+			}
+		}
+
+		.pagination-navigation-image(@image_name) {
+			a {
+				div.pagination-item {
+					color: transparent;
+	        		background-image: url('@{image_path}@{image_name}');
+	        		background-repeat: no-repeat;
+	        		background-position: center;
+				}
+
+				div.pagination-item:hover{
+					color: transparent;
+				}
+			}
+		}
+
+		li:first-child {
+			.pagination-navigation-image('previous.png');
+		}
+
+
+		li:last-child {
+			.pagination-navigation-image('next.png');
+		}
+	}
 }
