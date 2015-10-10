@@ -204,6 +204,11 @@ $upload_path="../upload/"
 						</div>
 					</div>
 					<div class="component-container">
+						<div class="644x115_ad">
+							<a href="#"><div><img src="<?php echo $upload_path ?>644x115_ad.png" alt="ad"></div></a>
+						</div>
+					</div>
+					<div class="component-container">
 						<div class="mainstory">
 							<ul class="tab-panel">
 								<li class="active">全部資訊</li><!--
@@ -508,55 +513,77 @@ $upload_path="../upload/"
 					</div>
 				</div>
 				<div class="three_right">
-					<div class="hot-article">
-						<div class="hot-article-header">
-							<div class="icon"></div>
-							<span class="title">熱門話題</span>
-							<div class="splitter"></div>
+					<div class="component-container">
+						<div class="300x250_ad">
+							<a href="#"><div><img src="<?php echo $upload_path ?>300x250_ad.png" alt="ad"></div></a>
 						</div>
-						<div class="hot-article-content">
-							<ul>
-								<li><a href="#">
-									<div class="icon hot"></div>
-									<div class="title">感受速度與聲浪的極限 台灣TMAX 530 GP應援團</div></a>
-								</li>
-								<li><a href="#">
-									<div class="icon hot"></div>
-									<div class="title">劃時代三腳獸！TRICITY 125 海外試駕分享</div></a>
-								</li>
-								<li><a href="#">
-									<div class="icon hot"></div>
-									<div class="title">DUCATI新技術! 可變氣門正時系統 DVT</div></a>
-								</li>
-								<li><a href="#">
-									<div class="icon"></div>
-									<div class="title">[2014 科隆車展] DUCATI 玩樂至上主義 Scrambler</div></a>
-								</li>
-								<li><a href="#">
-									<div class="icon"></div>
-									<div class="title">SMAX的台北十大美食小吃之旅</div></a>
-								</li>
-								<li><a href="#">
-									<div class="icon"></div>
-									<div class="title">注意，必看！水冷速克達版規 V1.4</div></a>
-								</li>
-								<li><a href="#">
-									<div class="icon"></div>
-									<div class="title">相同的DNA、不同的精采靈魂［跨界跑旅SMAX小劇場］</div></a>
-								</li>
-								<li><a href="#">
-									<div class="icon"></div>
-									<div class="title">SMAX155 DIY系列 傳動拆裝過程分享</div></a>
-								</li>
-								<li><a href="#">
-									<div class="icon"></div>
-									<div class="title">SMAX 155 清完節流閥怠速問題</div></a>
-								</li>
-								<li><a href="#">
-									<div class="icon"></div>
-									<div class="title">smax大燈問題</div></a>
-								</li>
-							</ul>
+					</div>
+					<div class="component-container">
+						<div class="hot-article">
+							<div class="hot-article-header">
+								<div class="icon"></div>
+								<span class="title">熱門話題</span>
+								<div class="splitter"></div>
+							</div>
+							<div class="hot-article-content">
+								<ul>
+									<li><a href="#">
+										<div class="icon hot"></div>
+										<div class="title">感受速度與聲浪的極限 台灣TMAX 530 GP應援團</div></a>
+									</li>
+									<li><a href="#">
+										<div class="icon hot"></div>
+										<div class="title">劃時代三腳獸！TRICITY 125 海外試駕分享</div></a>
+									</li>
+									<li><a href="#">
+										<div class="icon hot"></div>
+										<div class="title">DUCATI新技術! 可變氣門正時系統 DVT</div></a>
+									</li>
+									<li><a href="#">
+										<div class="icon"></div>
+										<div class="title">[2014 科隆車展] DUCATI 玩樂至上主義 Scrambler</div></a>
+									</li>
+									<li><a href="#">
+										<div class="icon"></div>
+										<div class="title">SMAX的台北十大美食小吃之旅</div></a>
+									</li>
+									<li><a href="#">
+										<div class="icon"></div>
+										<div class="title">注意，必看！水冷速克達版規 V1.4</div></a>
+									</li>
+									<li><a href="#">
+										<div class="icon"></div>
+										<div class="title">相同的DNA、不同的精采靈魂［跨界跑旅SMAX小劇場］</div></a>
+									</li>
+									<li><a href="#">
+										<div class="icon"></div>
+										<div class="title">SMAX155 DIY系列 傳動拆裝過程分享</div></a>
+									</li>
+									<li><a href="#">
+										<div class="icon"></div>
+										<div class="title">SMAX 155 清完節流閥怠速問題</div></a>
+									</li>
+									<li><a href="#">
+										<div class="icon"></div>
+										<div class="title">smax大燈問題</div></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="component-container">
+						<div class="300x250_ad">
+							<a href="#"><div><img src="<?php echo $upload_path ?>300x250_ad.png" alt="ad"></div></a>
+						</div>
+					</div>
+					<div class="component-container">
+						<div class="300x250_ad">
+							<a href="#"><div><img src="<?php echo $upload_path ?>300x250_ad.png" alt="ad"></div></a>
+						</div>
+					</div>
+					<div class="component-container">
+						<div class="300x250_ad">
+							<a href="#"><div><img src="<?php echo $upload_path ?>300x250_ad.png" alt="ad"></div></a>
 						</div>
 					</div>
 				</div>
