@@ -1,0 +1,90 @@
+@import "library";
+@import "elements";
+
+@splitter_width: 6px;
+@hot_article_splitter_width: @splitter_width * 31;
+
+html, body {
+	background: gray;
+}
+
+.hot-article {
+	width: 300px;
+
+	.hot-article-header {
+		height: 34px;
+		padding: 11px 14px 11px 10px;
+		background-color: @slide_title_color;
+
+		div.icon, span.title, div.splitter {
+			height: 12px;
+			display: inline-block;
+		}
+
+		div.icon, span.title {
+			position: relative;
+		}
+
+		div.icon {
+			.square(12px);
+			background-image: url('@{image_path}sidetitleicon.png');
+			margin-right: 7px;
+			bottom: 2px;
+		}
+
+		span.title {
+			font-size: 12px;
+			color: white;
+			bottom: 4px;
+		}
+
+		div.splitter {
+			float: right;
+			width: @hot_article_splitter_width;
+			background-image: url('@{image_path}splitter.png');
+			background-repeat: repeat-x;
+			background-position: center;
+		}
+	}
+
+	.hot-article-content {
+		background-color: @hiline_color;
+		padding: 18px 10px 12px 20px;
+
+		ul {
+			margin-bottom: 0;
+
+			li > a{
+				display: block;
+				text-decoration: none;
+
+				div {
+					display: inline-block;
+				}
+
+				div.icon {
+					.size(15px, 19px);
+					margin-right: 3px;
+					vertical-align: top;
+					background-image: url("@{image_path}discussnormal.png");
+				}
+
+				div.icon.hot {
+					background-image: url("@{image_path}discusshot.png");
+				}
+
+				div.title {
+					width: 245px;
+					font-size: 12px;
+					margin: 7px 0;
+					color: @gallery_board_color;
+					word-break: break-all;
+				}
+			}
+
+			li > a:hover {
+				// background-color: gray; // up-to-you
+			}
+		}
+	}
+}
