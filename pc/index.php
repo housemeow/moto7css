@@ -31,7 +31,7 @@ $upload_path="../upload/"
 				<ul class="mainmenu nav navbar-nav">
 					<li><a href="#">首頁</a></li>
 					<li class="active"><a href="#">新聞</a></li>
-					<li><a href="#">專欄</a></li>
+					<li class="active"><a href="#">專欄</a></li>
 					<li><a href="#">相簿</a></li>
 					<li><a href="#">車廠</a></li>
 					<li><a href="#">車款</a></li>
