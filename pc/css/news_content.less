@@ -5,6 +5,7 @@
 @import "parts";
 @import "component-breadcrumb";
 @import "component-article";
+@import "component-related-article";
 
 html{
 	background: @background_color;
@@ -286,25 +287,33 @@ html{
 		}
 		.container{
 			padding: 16px 0 34px 0;
-			.three_left {
+
+            .three_left {
 				float: left;
                 margin: 0 15px 0 0;
                 width: 165px;
 			}
+
 			.three_center {
                 position: relative;
                 float: left;
                 margin: 0 15px 0 0;
                 width: 644px;
             }
+
             .two-right, .three_right {
                 float: left;
                 width: 300px;
             }
+
             .two-left{
                 float: left;
                 margin: 0 15px 0 0;
                 width: 824px;
+
+                .component-container {
+                    margin-bottom: 16px;
+                }
             }
 		}
     }

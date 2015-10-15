@@ -1,19 +1,11 @@
 @import "library";
 @import "elements";
 
-html {
-    background: blue;
-
-    body {
-        background: green;
-    }
-}
-
 .related-article {
-    background-color: @colum_board_color;
-    width: 769px;
-    height: 243px;
+    .size(769px, 243px);
+    position: relative;
     padding: 45px 16px 16px 16px;
+    background-color: @colum_board_color;
 
 	.title {
         position: absolute;
