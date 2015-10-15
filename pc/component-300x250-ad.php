@@ -1,3 +1,8 @@
+<?
+    $images_path = "images/";
+    $upload_path = "../upload/";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -21,8 +26,8 @@
         <script src="js/function.js"></script>
     </head>
     <body>
-        <div class="644x115_ad">
-            <img src="images/644x115_ad.png">
+        <div class="300x250_ad">
+            <a href=""><img src="<?php echo $upload_path ?>300x250_ad.png"></a>
         </div>
     </body>
 </html>
