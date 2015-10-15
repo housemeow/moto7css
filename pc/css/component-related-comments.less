@@ -1,13 +1,21 @@
 @import "library";
 @import "elements";
 
+
+.title {
+    position: absolute;
+    top: -4px;
+    left: 10px;
+    z-index: 10;
+}
+
 .relatedComments {
-    position: relative;
     width: 735px;
+    padding: 18px 29px;
+    position: relative;
     color: @hiline_color;
     font-size: 12px;
     background-color: @gallery_board_color;
-    padding: 18px 29px;
     overflow: auto;
 
     .commentPost {
