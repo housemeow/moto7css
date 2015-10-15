@@ -1,11 +1,11 @@
 @import "library";
 @import "elements";
-@import "brands";
-@import "models";
-@import "parts";
 @import "component-breadcrumb";
 @import "component-article";
 @import "component-related-article";
+@import "component-related-brands";
+@import "component-related-models";
+@import "component-related-parts";
 
 html{
 	background: @background_color;
@@ -304,6 +304,10 @@ html{
             .two-right, .three_right {
                 float: left;
                 width: 300px;
+
+                .component-container {
+                    margin-bottom: 15px;
+                }
             }
 
             .two-left{

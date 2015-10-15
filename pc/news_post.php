@@ -13,7 +13,7 @@ $upload_path="../upload/"
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="js_fk/bxslider/jquery.bxslider.css" rel="stylesheet">
-        <link rel="stylesheet/less" type="text/css" href="css/news_content.less" />
+        <link rel="stylesheet/less" type="text/css" href="css/news_post.less" />
         <!--js-->
         <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.5/less.min.js"></script>
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -199,7 +199,83 @@ $upload_path="../upload/"
                                 </div></div>
                             </div>
                             <div class="two-right">
-                                
+                                <div class="component-container">
+                                    <div class="300x250_ad">
+                                        <a href=""><img src="<?php echo $upload_path ?>300x250_ad.png"></a>
+                                    </div>
+                                </div>
+                                <div class="component-container">
+                                    <div class="related-brands">
+                                        <div class="header"><h2>相關廠商</h2></div>
+                                        <div class="content">
+                                            <div class="item">
+                                                <a href="#">
+                                                    <img src="<?php echo $upload_path ?>closely_firm_img1.jpg">
+                                                    <span class="name">光陽機車</span>
+                                                    <span class="submit"></span>
+                                                </a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="#">
+                                                    <img src="<?php echo $upload_path ?>closely_firm_img2.jpg">
+                                                    <span class="name">MOTOREX</span>
+                                                    <span class="submit"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="component-container">
+                                    <div class="related-models">
+                                        <div class="header"><h2>相關車款</h2></div>
+                                        <div class="content">
+                                            <div class="item">
+                                                <a href="#">
+                                                    <img src="<?php echo $upload_path ?>closely_model_img1.jpg">
+                                                    <span class="name">GSX-S1000F</span>
+                                                    <span class="submit"></span>
+                                                </a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="#">
+                                                    <img src="<?php echo $upload_path ?>closely_model_img2.jpg">
+                                                    <span class="name">GSX-S1000</span>
+                                                    <span class="submit"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="component-container">
+                                    <div class="related-parts">
+                                        <div class="header"><h2>相關部品</h2></div>
+                                        <div class="content">
+                                            <div class="item">
+                                                <a href="#">
+                                                    <img src="<?php echo $upload_path ?>closely_something.jpg">
+                                                    <span class="name">MOTOREX<br/>TOP SPEED 4T 5W40</span>
+                                                    <span class="submit"></span>
+                                                </a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="component-container">
+                                    <div class="300x250_ad">
+                                        <a href=""><img src="<?php echo $upload_path ?>300x250_ad.png"></a>
+                                    </div>
+                                </div>
+                                <div class="component-container">
+                                    <div class="300x250_ad">
+                                        <a href=""><img src="<?php echo $upload_path ?>300x250_ad.png"></a>
+                                    </div>
+                                </div>
+                                <div class="component-container">
+                                    <div class="300x250_ad">
+                                        <a href=""><img src="<?php echo $upload_path ?>300x250_ad.png"></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

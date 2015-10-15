@@ -4,8 +4,8 @@ $upload_path="../upload/"
 ?>
 <!DOCTYPE html>
 <html >
-<head>
-	<meta charset="UTF-8">
+	<head>
+		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Title of the document</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -22,26 +22,26 @@ $upload_path="../upload/"
 		<script src="https://rawgit.com/leafo/sticky-kit/v1.0.4/jquery.sticky-kit.min.js"></script>
 		<script src="js_fk/bxslider/jquery.bxslider.min.js"></script>
 		<script src="js/function.js"></script>
-</head>
-<body>
-	<div class="related-brands">
-		<div class="header"><h2>相關廠商</h2></div>
-		<div class="content">
-			<div class="item">
-				<a href="#">
-					<img src="<?php echo $upload_path ?>closely_firm_img1.jpg">		
-					<span class="name">光陽機車</span>
-					<span class="submit"></span>
-				</a>
-			</div>
-			<div class="item">
-				<a href="#">
-					<img src="<?php echo $upload_path ?>closely_firm_img2.jpg">		
-					<span class="name">MOTOREX</span>
-					<span class="submit"></span>
-				</a>
+	</head>
+	<body>
+		<div class="related-brands">
+			<div class="header"><h2>相關廠商</h2></div>
+			<div class="content">
+				<div class="item">
+					<a href="#">
+						<img src="<?php echo $upload_path ?>closely_firm_img1.jpg">
+						<span class="name">光陽機車</span>
+						<span class="submit"></span>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="<?php echo $upload_path ?>closely_firm_img2.jpg">
+						<span class="name">MOTOREX</span>
+						<span class="submit"></span>
+					</a>
+				</div>
 			</div>
 		</div>
-	</div>
-</body>
+	</body>
 </html>
