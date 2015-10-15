@@ -101,6 +101,5 @@ $upload_path="../upload/"
 				</form>
 			</div>
 		</div>
-		
 	</body>
 </html>
