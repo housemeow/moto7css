@@ -81,7 +81,14 @@ $upload_path="../upload/"
             </div>
             <div class="container">
                 <div class="two-left">
-                    
+                    <div class="component-breadcrumb">
+                        <ul>
+                            <li><span class="text">首頁</span><span class="arrow"></span></li>
+                            <li><span class="text">專欄</span><span class="arrow"></span></li>
+                            <li><span class="text">特別企劃</span><span class="arrow"></span></li>
+                            <li><span class="text">MOTO7教練團日本Suzuka安駕訓練受訓紀實</span><span class="arrow"></span></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="two-right">
                     
