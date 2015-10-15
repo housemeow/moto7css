@@ -8,12 +8,6 @@ html {
 	}
 }
 
-.set-background-center(@image_path) {
-	background-image: url('@{image_path}');
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
 .article {
 	width: 768px;
 
@@ -21,9 +15,10 @@ html {
 		text-decoration: none;
 	}
 
-	div.header {
+	div.article-header {
 		border: 1px solid @hiline_color;
 		background-color: @article_title_background_color;
+		margin-bottom: 16px;
 
 		div.header-title {
 			padding: 20px;
@@ -58,7 +53,7 @@ html {
 		}
 	}
 
-	div.content {
+	div.article-content {
 		position: relative;
 		padding: 30px 32px 33px 30px;
 		background-color: @hiline_color;

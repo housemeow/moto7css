@@ -56,9 +56,7 @@ $upload_path="../upload/"
           
           <div class="image-container"><img src="images/contentpic2.png"></div>
           <p>Suzuka 交通安全中心位於鈴鹿國際賽車場旁，擁有佔地70,000平方米的場地，整個訓練設施包含一般環場道路、道路實境模擬、低摩擦係數路面、剎車訓練場、雨天訓練場、中低速綜合訓練場、模擬市區道路以及主建築，其設施極為完善，搭配HONDA 交通安全研究團隊四十多年來的研究結晶，成為交通安全研究的指標性學校。</p>
-
           <div class="image-container"><img src="images/contentpic3.png"></div>
-
           <div class="gallery">
             <ul>
               <li><a href="#"><img src="images/galleryphoto.png"></a></li>
@@ -70,7 +68,6 @@ $upload_path="../upload/"
             </ul>
           </div>
         </div>
-
         <div class="navigation">
           <a href="#"><div class="back"></div></a>
           <div class="previous">
@@ -90,6 +87,6 @@ $upload_path="../upload/"
           </div>
         </div>
       </div>
-</div>
-</body>
+    </div>
+  </body>
 </html>
