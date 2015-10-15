@@ -1,0 +1,228 @@
+@import "library";
+@import "elements";
+
+.relatedComments {
+    position: relative;
+    width: 735px;
+    color: @hiline_color;
+    font-size: 12px;
+    background-color: @gallery_board_color;
+    padding: 18px 29px;
+    overflow: auto;
+
+    .commentPost {
+        border-bottom: 1px solid @colum_board_color;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+        overflow: auto;
+        position: relative;
+
+        .user {
+            position: relative;
+            padding: 10px 14px 0 0;
+            float: left;
+            text-align: center;
+
+            .photo {
+                padding: 3px;
+                margin-bottom: 10px;
+                border: 1px solid @hiline_color;
+            }
+
+            a {
+                color: @hiline_color;
+            }
+        }
+
+        .user:before {
+            content: "";
+            display: block;
+            border: 2px solid @hiline_color;
+            background-color: @hiline_color;
+            height: 5px;
+            width: 5px;
+            border-radius: 100%;
+            position: absolute;
+            top: 25px;
+            right: 0;
+        }
+
+        .user:after {
+            content: "";
+            display: block;
+            border: 2px solid @hiline_color;
+            background-color: @hiline_color;
+            height: 5px;
+            width: 5px;
+            border-radius: 100%;
+            position: absolute;
+            top: 34px;
+            right: 0;
+        }
+
+        .comment {
+            float: left;
+            margin-left: 11px;
+            width: 610px;
+
+            .date {
+                padding-left: 4px;
+                color: @comment_date_color;
+            }
+
+            .postText {
+                padding-top: 9px;
+
+                .fa-inverse {
+                    color: @gallery_board_color;
+                }
+
+                .txt {
+                    float: right;
+                    width: 570px;
+                }
+            }
+
+            .commentFeed {
+                padding-top: 13px;
+                overflow: auto;
+                position: relative;
+                margin-left: -5px;
+                width: 615px;
+
+                .comment {
+                    width: 548px;
+                }
+            }
+
+            .commentFeed:before {
+                content: "";
+                width: 1px;
+                height: 22px;
+                background: url('@{image_path}commentdotted.png') repeat-y;
+                position: absolute;
+                top: 0;
+                left: 20px;
+            }
+        }
+
+        .btn-default {
+            background-color: @gallery_board_color;
+            color: @hiline_color;
+            border-color: @gallery_board_color;
+            padding: 0;
+            line-height: normal;
+            border-radius: 0;
+            position: absolute;
+            right: 0;
+            bottom: 10px;
+        }
+
+        .btn-default:hover,
+        .btn-default:focus,
+        .btn-default:active,
+        .btn-default.active {
+            color: @comment_date_color;
+        }
+    }
+}
+
+.commentForm {
+    margin-top: 16px;
+
+    .commentPost {
+        border: none;
+        margin-bottom: 0;
+
+        .comment {
+            width: 610px;
+
+            .form-control {
+                color: @comment_textarea_color;
+                font-size: 12px;
+                height: 79px;
+            }
+
+            .form-control:focus {
+                color: @gallery_board_color;
+            }
+        }
+    }
+
+    .btn {
+        float: right;
+        background-color: @gallery_board_color;
+        border-color: @hiline_color;
+        color: @hiline_color;
+    }
+    
+    .btn-default:hover,
+    .btn-default:focus,
+    .btn-default:active,
+    .btn-default.active {
+        background-color: @comment_date_color;
+    }
+}
+
+// .related-comments {
+//     .size(769px, 243px);
+    
+//     position: relative;
+//     padding: 45px 16px 16px 16px;
+//     background-color: @colum_board_color;
+
+// 	.title {
+//         position: absolute;
+//         top: -4px;
+//         left: 10px;
+//         z-index: 10;
+//     }
+
+//     .item {
+//         div {
+//         	position: relative;
+//             width: 177px;
+//             height: 182px;
+//             background-color: @gallery_board_color;
+//             float: left;
+//             padding: 6px;
+//             margin-right: 9px;
+
+//          	img {
+//          		outline: 1px solid @hiline_color;
+//          		outline-offset: -1px;
+//                 margin: 0 0 10px 0;
+//          	} 
+
+//          	span.headline {
+//                 display: block;
+//                 font-size: 12px;
+//                 color: @hiline_color;
+//                 padding: 0 4px;
+//             }
+
+//             span.more {
+//                 .setbackground(transparent, '@{image_path}contentmorelink.png', 0px, 0px);
+
+//                 position: absolute;
+//                 display: block;
+//                 width: 37px;
+//                 height: 14px;
+//                 bottom: 7px;
+//                 right: 7px;
+//             }
+
+//             a:hover {
+//             	text-decoration: none;
+
+//             	.more {	
+// 	            	.setbackground(transparent, '@{image_path}contentmorelink.png', 0px, -14px);
+// 	            }
+//             }
+//         }
+//     }
+
+//     .item:last-child > div {
+//     	margin-right: 0px;
+//     }
+// }
