@@ -24,86 +24,76 @@ $upload_path="../upload/"
 		<script src="js/function.js"></script>
 	</head>
 	<body>
-		<!-- <div class="related-comments">
-			<img class="title" src="<?php echo $images_path ?>commenttitle.png">
-			<div class="item">
-				<div>
-					<a href="#">
-						<img src="<?php echo $upload_path ?>img_165x110.jpg">
-						<span class="headline">CUSTOM MOTO：KYMCO QUANNON BY 禾倉技研</span>
-						<span class="more"></span>
-					</a>
-				</div>
-			</div>
-		</div> -->
-		<div class="relatedPosts">
-			<img class="title" src="images/commenttitle.png">
-			<div class="relatedComments">
-				<div class="commentPost">
+		<div class="related-comments">
+			<img class="title-icon" src="images/commenttitle.png">
+			<div class="comments-list">
+				<div class="comments-post">
 					<div class="user">
 						<div class="photo"><img src="../upload/photo_34x34.jpg"></div>
 						<a href="#">建豪</a>
 					</div>
-					<div class="comment">
+					<div class="comments">
 						<span class="date">六月 20, 2012 於 2:53 下午</span>
-						<div class="postText">
+						<div class="post-text">
 							<span class="fa-stack fa-lg">
 								<i class="fa fa-circle fa-stack-2x"></i>
 								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
 							</span>
-							<span class="txt">我比較在意的還是引擎部分~我比較在意的還是引擎部分~我比較在意的還是引擎部分~我比較在意的還是引擎部分~我比較在意的還是引擎部分~</span>
+							<span class="text">我比較在意的還是引擎部分~我比較在意的還是引擎部分~我比較在意的還是引擎部分~我比較在意的還是引擎部分~我比較在意的還是引擎部分~</span>
 						</div>
 					</div>
 					<a class="btn btn-default btn-lg" href="#"><i class="fa fa-comment"></i></a>
 				</div>
-				<div class="commentPost">
+				<div class="comments-post">
 					<div class="user">
 						<div class="photo"><img src="../upload/photo_34x34.jpg"></div>
 						<a href="#">羊</a>
 					</div>
-					<div class="comment">
+					<div class="comments">
 						<span class="date">六月 20, 2012 於 2:53 下午</span>
-						<div class="postText">
+						<div class="post-text">
 							<span class="fa-stack fa-lg">
 								<i class="fa fa-circle fa-stack-2x"></i>
 								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
 							</span>
-							<span class="txt">我比較在意的還是引擎部分~</span>
+							<span class="text">我比較在意的還是引擎部分~</span>
 						</div>
-						<div class="commentFeed">
+						<div class="comments-feed">
 							<div class="user">
 								<div class="photo"><img src="../upload/photo_34x34.jpg"></div>
 								<a href="#">建豪</a>
 							</div>
-							<div class="comment">
+							<div class="comments">
 								<span class="date">六月 20, 2012 於 2:53 下午</span>
-								<div class="postText">我比較在意的還是引擎部分~</div>
+								<div class="post-text">我比較在意的還是引擎部分~</div>
 							</div>
 						</div>
 					</div>
 					<a class="btn btn-default btn-lg" href="#"><i class="fa fa-comment"></i></a>
 				</div>
 				<nav>
-					<ul class="pagination">
-						<li class="disabled"><a href="#"><span aria-hidden="true"><i class="fa fa-chevron-left"></i></span><span class="sr-only">Previous</span></a></li>
-						<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">10</a></li>
-						<li><a href="#">...</a></li>
-						<li><a href="#"><span aria-hidden="true"><i class="fa fa-chevron-right"></i></span><span class="sr-only">Next</span></a></li>
-					</ul>
+					<div class="pagination">
+						<ul>
+							<li class="previous"><a href="#"><div class="pagination-item disable">&lt;</div></a><div class="hr-line"><span></span></div></li>
+							<li><a href="#"><div class="pagination-item active">1</div></a><div class="hr-line"><span></span></div></li>
+							<li><a href="#"><div class="pagination-item">2</div></a><div class="hr-line"><span></span></div></li>
+							<li><a href="#"><div class="pagination-item">3</div></a><div class="hr-line"><span></span></div></li>
+							<li><a href="#"><div class="pagination-item">4</div></a><div class="hr-line"><span></span></div></li>
+							<li><a href="#"><div class="pagination-item">5</div></a><div class="hr-line"><span></span></div></li>
+							<li><a href="#"><div class="pagination-item"><span class="dot">...</span></div></a><div class="hr-line"><span></span></div></li>
+							<li class="next"><a href="#"><div class="pagination-item">&gt;</div></a></li>
+						</ul>
+					</div>
 				</nav>
 			</div>
-			<div class="relatedComments commentForm">
+			<div class="comments-list comment-form">
 				<form role="form">
-					<div class="commentPost">
+					<div class="comments-post">
 						<div class="user">
 							<div class="photo"><img src="../upload/photo_34x34.jpg"></div>
 							<a href="#">建豪</a>
 						</div>
-						<div class="comment">
+						<div class="comments">
 							<textarea class="form-control" rows="3" placeholder="請輸入您的評論"></textarea>
 						</div>
 					</div>
