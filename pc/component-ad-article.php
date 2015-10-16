@@ -32,9 +32,7 @@
           <p>報名時間: 即日起到10月底為止</p>
         </div>
         <div class="signupclick"><a href=""><img src="images/signup.png"> </a></div>
-     </div>
+      </div>
     </div>
-  
-  
-</body>
+  </body>
 </html>
