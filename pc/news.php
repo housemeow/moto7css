@@ -82,6 +82,13 @@ $upload_path="../upload/"
             </div>
             <div class="container">
                 <div class="two-left">
+                    <div class="component-breadcrumb">
+                        <ul>
+                            <li><span class="text">首頁</span><span class="arrow"></span></li>
+                            <li><span class="text">新聞</span><span class="arrow"></span></li>
+                            <li><span class="text">全部新聞</span><span class="arrow"></span></li>
+                        </ul>
+                    </div>
                     <div class="news">
                         <div class="news-menu">
                             <div class="btn-group">
@@ -312,14 +319,14 @@ $upload_path="../upload/"
         </div>
     </body>
     <script>
-        jQuery(function(){
-            $('#news-masonry').masonry({
-                "columnWidth": 195,
-                itemSelector: '.newsItem',
-                "gutter": 14,
-                animate:true
-                
-                        });
-        });
+    jQuery(function(){
+    $('#news-masonry').masonry({
+    "columnWidth": 195,
+    itemSelector: '.newsItem',
+    "gutter": 14,
+    animate:true
+    
+    });
+    });
     </script>
 </html>
