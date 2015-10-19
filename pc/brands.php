@@ -201,14 +201,16 @@ $upload_path="../upload/"
                                         <a href="#"><img src="<?php echo $images_path ?>frando.jpg"></a>
                                         <span>FRANDO</span>
                                     </div>
-                                    <ul class="pagination-bar">
-                                        <li><a href="#"></a></li>
-                                        <li><a href="#"></a></li>
-                                        <li><a href="#"></a></li>
-                                        <li><a href="#"></a></li>
-                                        <li><a href="#"></a></li>
-                                        <li><a href="#"></a></li>
-                                    </ul>
+                                    <div class="pagination-bar">
+                                        <ul>
+                                            <li><a href="#" class="active"></a></li>
+                                            <li><a href="#"></a>&nbsp;</li>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
