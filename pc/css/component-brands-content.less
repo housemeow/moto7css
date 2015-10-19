@@ -87,13 +87,34 @@ html {
                     font-size: 12px;
                     color: black;
                 }
+            }
 
-                .pagination-bar {
-                    width: 112px;
+            .pagination-bar {
+                text-align: center;
+
+                ul {
+                        font-size: 0;
                     display: inline-block;
+                    list-style: none;
 
-                    ul {
-                        list-style: none;
+                    li {
+                        display: inline-block;
+                        margin-right: 9px;
+                    }
+
+                    a {
+                        .square(11px);
+                        display: block;
+                        background-color: @pagination_dot_background_color;
+                        border-radius: 100%;
+                    }
+
+                    a:last-child {
+                        margin-right: 0;
+                    }
+
+                    a:hover, a.active {
+                        background-color: @hiline_color;
                     }
                 }
             }
