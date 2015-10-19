@@ -29,14 +29,14 @@ $upload_path="../upload/"
 			<div class="content">
 				<div class="item">
 					<a href="#">
-						<img src="<?php echo $upload_path ?>closely_firm_img1.jpg">
+						<div><img src="<?php echo $upload_path ?>closely_firm_img1.jpg"></div>
 						<span class="name">光陽機車</span>
 						<span class="submit"></span>
 					</a>
 				</div>
 				<div class="item">
 					<a href="#">
-						<img src="<?php echo $upload_path ?>closely_firm_img2.jpg">
+						<div><img src="<?php echo $upload_path ?>closely_firm_img2.jpg"></div>
 						<span class="name">MOTOREX</span>
 						<span class="submit"></span>
 					</a>

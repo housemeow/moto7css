@@ -29,7 +29,7 @@ $upload_path="../upload/"
 			<div class="content">
 				<div class="item">
 					<a href="#">
-						<img src="<?php echo $upload_path ?>closely_something.jpg">
+						<div><img src="<?php echo $upload_path ?>closely_something.jpg"></div>
 						<span class="name">MOTOREX<br/>TOP SPEED 4T 5W40</span>
 						<span class="submit"></span>
 					</a>
