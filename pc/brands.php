@@ -81,14 +81,13 @@ $upload_path="../upload/"
             </div>
             <div class="container">
                 <div class="two-left">
-                    <div class="component-container">
-                        <div class="component-breadcrumb">
-                            <ul>
-                                <li><span class="text">首頁</span><span class="arrow"></span></li>
-                                <li><span class="text">廠商</span><span class="arrow"></span></li>
-                            </ul>
-                        </div>
+                    <div class="component-breadcrumb">
+                        <ul>
+                            <li><span class="text">首頁</span><span class="arrow"></span></li>
+                            <li><span class="text">廠商</span><span class="arrow"></span></li>
+                        </ul>
                     </div>
+                    <div class="dot-splitter"></div>
                     <div class="component-container">
                         <div class="brands-content">
                             <div class="brands">
