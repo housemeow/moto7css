@@ -79,6 +79,7 @@ $upload_path="../upload/"
                             <li><span class="text">全部新聞</span><span class="arrow"></span></li>
                         </ul>
                     </div>
+                    <div class="dot-splitter"></div>
                     <div class="news">
                         <div class="news-menu">
                             <div class="btn-group">
