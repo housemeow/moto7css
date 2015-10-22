@@ -225,17 +225,22 @@ $upload_path="../upload/"
                     </div>
                     <div class="component-container">
                         <div class="ad-article">
-                            <div class="activity">
+                            <div class="ad-article-header clearfix">
                                 <div class="redbox"></div>
-                                <p>活動特區 <img src="images/dotline.png"></p>
-                                <div class="moto">
-                                    <img src="images/moto7.png">
+                                <span>活動特區</span>
+                                <div class="splitter"></div>
+                            </div>
+                            <div class="ad-article-content">
+                                <div class="article-thumbnail">
+                                    <img src="<?php echo $images_path ?>moto7.jpg">
+                                    <div class="description">
+                                        MOTO7 騎乘技術訓練 2013年度開課
+                                    </div>
                                 </div>
-                                <div class="text"><p>MOTO7 騎乘技術訓練 2013年度開課</p></div>
                                 <div class="signup">
-                                    <p>報名時間: 即日起到10月底為止</p>
+                                    <span>報名時間: 即日起到10月底為止</span>
+                                    <img src="<?php echo $images_path ?>signup.png">
                                 </div>
-                                <div class="signupclick"><a href=""><img src="images/signup.png"> </a></div>
                             </div>
                         </div>
                     </div>
