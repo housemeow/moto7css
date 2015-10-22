@@ -1,0 +1,7 @@
+.image-center-crop(@width, @height) {
+    .size(@width, @height);
+    > img {
+        .square(100%);
+        object-fit: cover;
+    }
+}
