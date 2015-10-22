@@ -25,12 +25,12 @@ $upload_path="../upload/"
 	</head>
 	<body>
 		<div class="ad-article">
-			<div class="header clearfix">
+			<div class="ad-article-header clearfix">
 				<div class="redbox"></div>
 				<span>活動特區</span>
 				<div class="splitter"></div>
 			</div>
-			<div class="content">
+			<div class="ad-article-content">
 				<div class="article-thumbnail">
 					<img src="<?php echo $images_path ?>moto7.jpg">
 					<div class="description">
