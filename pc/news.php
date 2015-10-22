@@ -7,7 +7,7 @@ $upload_path="../upload/"
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>D1_1_新聞區列表頁.jpg</title>
+        <title>D1_1_新聞區列表頁</title>
         <!--css-->
         <link href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css" rel="stylesheet">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
