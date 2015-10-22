@@ -1,0 +1,65 @@
+@import "library";
+@import "elements";
+
+.related-article {
+    .size(768px, 243px);
+    
+    position: relative;
+    padding: 45px 16px 16px 16px;
+    background-color: @colum_board_color;
+
+	.title {
+        position: absolute;
+        top: -4px;
+        left: 10px;
+        z-index: 10;
+    }
+
+    .item {
+        div {
+        	position: relative;
+            width: 177px;
+            height: 182px;
+            background-color: @gallery_board_color;
+            float: left;
+            padding: 6px;
+            margin-right: 9px;
+
+         	img {
+         		outline: 1px solid @hiline_color;
+         		outline-offset: -1px;
+                margin: 0 0 10px 0;
+         	} 
+
+         	span.headline {
+                display: block;
+                font-size: 12px;
+                color: @hiline_color;
+                padding: 0 4px;
+            }
+
+            span.more {
+                .setbackground(transparent, '@{image_path}contentmorelink.png', 0px, 0px);
+
+                position: absolute;
+                display: block;
+                width: 37px;
+                height: 14px;
+                bottom: 7px;
+                right: 7px;
+            }
+
+            a:hover {
+            	text-decoration: none;
+
+            	.more {	
+	            	.setbackground(transparent, '@{image_path}contentmorelink.png', 0px, -14px);
+	            }
+            }
+        }
+    }
+
+    .item:last-child > div {
+    	margin-right: 0px;
+    }
+}

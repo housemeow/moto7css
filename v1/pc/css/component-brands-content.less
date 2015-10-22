@@ -1,0 +1,123 @@
+@import "library";
+@import "elements";
+html {
+    background-color: @background_color;
+    body {
+        background-color: @background_color;
+    }
+}
+.brands-content {
+    width: 823px;
+
+    .brands {
+        background-color: @colum_board_color;
+        margin-top: 15px;
+
+        .content-header {
+            margin-top: 5px;
+            margin-left: 12px;
+
+            img {
+                margin-top: -4px;
+            }
+
+            span {
+                margin-left: 5px;
+                font-size: 14px;
+            }
+        }
+
+        .content-block {
+            padding: 25px;
+
+            .block {
+                .size(187px, 173px);
+                margin: 0 0 5px 2px;
+                border: 1px solid white;
+                background-color: @gallery_board_color;
+                display: inline-block;
+                text-align: center;
+
+                img {
+                    padding: 5px;
+                }
+
+                span {
+                    font-size: 12px;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .clothing-brands {
+        margin-top: 15px;
+        background-color: @gallery_board_color;
+        color: @colum_board_color;
+
+        .content-header {
+            margin-top: 5px;
+            margin-left: 12px;
+
+            img {
+                margin-top: -4px;
+            }
+
+            span {
+                margin-left: 5px;
+                font-size: 14px;
+            }
+        }
+
+        .content-block {
+            padding: 25px;
+
+            .block {
+                .size(187px, 173px);
+                margin: 0 0 30px 2px;
+                background-color: @colum_board_color;
+                display: inline-block;
+                text-align: center;
+
+                img {
+                    padding: 5px;
+                }
+
+                span {
+                    font-size: 12px;
+                    color: black;
+                }
+            }
+
+            .pagination-bar {
+                text-align: center;
+
+                ul {
+                        font-size: 0;
+                    display: inline-block;
+                    list-style: none;
+
+                    li {
+                        display: inline-block;
+                        margin-right: 9px;
+                    }
+
+                    a {
+                        .square(11px);
+                        display: block;
+                        background-color: @pagination_dot_background_color;
+                        border-radius: 100%;
+                    }
+
+                    a:last-child {
+                        margin-right: 0;
+                    }
+
+                    a:hover, a.active {
+                        background-color: @hiline_color;
+                    }
+                }
+            }
+        }
+    }
+}

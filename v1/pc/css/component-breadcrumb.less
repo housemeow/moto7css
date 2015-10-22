@@ -1,0 +1,58 @@
+@import "library";
+@import "elements";
+
+
+html {
+	background: green;
+	body {
+		background: @background_color;
+	}
+}
+
+.component-breadcrumb {
+	ul {
+		margin-bottom: 0;
+		font-size: 0; // remove gap between li
+
+		li {
+			display: inline-block;
+			color: @hiline_color;
+
+			span {
+				float: left;
+				font-size: 11px;
+				line-height: 19px;
+			}
+		}
+
+		.breadcrumb-item(@color) {
+			span.text {
+				padding: 0 4px;
+				background-color: @color;
+			}
+
+			span.arrow {
+				.size(0, 0);
+				border-top: 9px solid transparent;
+				border-bottom: 10px solid transparent;
+				border-left: 11px solid @color;
+			}
+		}
+
+		li:nth-child(1) {
+			.breadcrumb-item(@slide_title_color);
+		}
+
+		li:nth-child(2) {
+			.breadcrumb-item(@menu_item_active_background_color);
+		}
+
+		li:nth-child(3) {
+			.breadcrumb-item(@menu_item_background_color);
+		}
+
+		li:last-child{
+			.breadcrumb-item(transparent);
+		}
+	}
+}
